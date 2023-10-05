@@ -766,6 +766,155 @@ public class IntegrationQuiz {
         }
 
 
+        // Fråga 51
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API-versionering i API-design?");
+        System.out.println("a) Att byta ut en API helt och hållet.");
+        System.out.println("b) Att möjliggöra ändringar och förbättringar i en API utan att påverka befintliga användare.");
+        System.out.println("c) Att stänga av en API och ersätta den med en ny.");
+        System.out.print("Svar: ");
+        String answer51 = scanner.nextLine();
+        if (answer51.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra ändringar och förbättringar i en API utan att påverka befintliga användare'.");
+        }
+
+// Fråga 52
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en UML-diagram i systemdesign?");
+        System.out.println("a) Att spara lösenord.");
+        System.out.println("b) Att modellera och visualisera systemets struktur och interaktioner.");
+        System.out.println("c) Att skapa webb-API:er.");
+        System.out.print("Svar: ");
+        String answer52 = scanner.nextLine();
+        if (answer52.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att modellera och visualisera systemets struktur och interaktioner'.");
+        }
+
+// Fråga 53
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Docker-container i utvecklings- och driftmiljöer?");
+        System.out.println("a) Att bygga webbapplikationer.");
+        System.out.println("b) Att isolera och distribuera applikationskomponenter med sina beroenden.");
+        System.out.println("c) Att skapa grafiska användargränssnitt.");
+        System.out.print("Svar: ");
+        String answer53 = scanner.nextLine();
+        if (answer53.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att isolera och distribuera applikationskomponenter med sina beroenden'.");
+        }
+
+// Fråga 54
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CDN (Content Delivery Network) i webbutveckling?");
+        System.out.println("a) Att skapa databaser.");
+        System.out.println("b) Att accelerera leverans av webb- och mediainnehåll till användare genom nära geografisk placering.");
+        System.out.println("c) Att skapa lösenord.");
+        System.out.print("Svar: ");
+        String answer54 = scanner.nextLine();
+        if (answer54.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att accelerera leverans av webb- och mediainnehåll till användare genom nära geografisk placering'.");
+        }
+
+// Fråga 55
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en NAT (Network Address Translation)-enhet i nätverksarkitektur?");
+        System.out.println("a) Att identifiera användare i ett nätverk.");
+        System.out.println("b) Att hantera IP-adresser och möjliggöra delad internetåtkomst för flera enheter.");
+        System.out.println("c) Att blockera all nätverkstrafik.");
+        System.out.print("Svar: ");
+        String answer55 = scanner.nextLine();
+        if (answer55.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att hantera IP-adresser och möjliggöra delad internetåtkomst för flera enheter'.");
+        }
+
+// Fråga 56
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL INDEX i databashantering?");
+        System.out.println("a) Att lagra användardata.");
+        System.out.println("b) Att kryptera känslig information.");
+        System.out.println("c) Att förbättra frågeprestanda genom att snabba upp sökningar i databaser.");
+        System.out.print("Svar: ");
+        String answer56 = scanner.nextLine();
+        if (answer56.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att förbättra frågeprestanda genom att snabba upp sökningar i databaser'.");
+        }
+
+// Fråga 57
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en VPN (Virtual Private Network)-tjänst?");
+        System.out.println("a) Att lagra foton och videor.");
+        System.out.println("b) Att skydda användares personliga filer.");
+        System.out.println("c) Att skapa en säker och krypterad anslutning över ett osäkert nätverk, som internet.");
+        System.out.print("Svar: ");
+        String answer57 = scanner.nextLine();
+        if (answer57.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att skapa en säker och krypterad anslutning över ett osäkert nätverk, som internet'.");
+        }
+
+// Fråga 58
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av ett MVC (Model-View-Controller)-arkitekturmönster i mjukvaruutveckling?");
+        System.out.println("a) Att hantera användares inloggning och lösenord.");
+        System.out.println("b) Att skapa databaser.");
+        System.out.println("c) Att separera applikationslogik, användargränssnitt och datahantering.");
+        System.out.print("Svar: ");
+        String answer58 = scanner.nextLine();
+        if (answer58.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att separera applikationslogik, användargränssnitt och datahantering'.");
+        }
+
+// Fråga 59
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en WebSocket i realtidskommunikation?");
+        System.out.println("a) Att skapa statiska webbsidor.");
+        System.out.println("b) Att möjliggöra tvåvägskommunikation mellan en webbläsare och en server i realtid.");
+        System.out.println("c) Att hantera användarautentisering.");
+        System.out.print("Svar: ");
+        String answer59 = scanner.nextLine();
+        if (answer59.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra tvåvägskommunikation mellan en webbläsare och en server i realtid'.");
+        }
+
+// Fråga 60
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en GraphQL-fråga i API-kommunikation?");
+        System.out.println("a) Att hämta en lista över alla användare i en databas.");
+        System.out.println("b) Att göra komplexa och anpassade frågor för att hämta specifik data från en API.");
+        System.out.println("c) Att skicka e-postmeddelanden.");
+        System.out.print("Svar: ");
+        String answer60 = scanner.nextLine();
+        if (answer60.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att göra komplexa och anpassade frågor för att hämta specifik data från en API'.");
+        }
         // Visa resultat
         System.out.println("\nDitt resultat: " + score + " av " + totalQuestions + " rätt.");
         scanner.close();
