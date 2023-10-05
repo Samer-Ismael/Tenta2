@@ -10,6 +10,141 @@ public class IntegrationQuiz {
         int score = 0;
         int totalQuestions = 0;
 
+// Fråga 131
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med ZooKeeper inom en Kafka-miljö?");
+        System.out.println("a) Att övervaka serverns prestanda.");
+        System.out.println("b) Att organisera och hantera metadata om Kafka-brokarna.");
+        System.out.println("c) Att administrera användarbehörigheter.");
+        System.out.print("Svar: ");
+        String answer131 = scanner.nextLine();
+        if (answer131.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att organisera och hantera metadata om Kafka-brokarna'.");
+        }
+
+        // Fråga 132
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en zNode i ZooKeeper?");
+        System.out.println("a) En sorts nätverkskabel.");
+        System.out.println("b) En abstrakt representation av en nod som kan innehålla data eller information om andra noder.");
+        System.out.println("c) En zebra i en djurpark.");
+        System.out.print("Svar: ");
+        String answer132 = scanner.nextLine();
+        if (answer132.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) En abstrakt representation av en nod som kan innehålla data eller information om andra noder'.");
+        }
+
+        // Fråga 133
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket av följande användningsområden är vanligt för ZooKeeper?");
+        System.out.println("a) Att baka kakor.");
+        System.out.println("b) Att hantera distribuerade system och koordinera processer.");
+        System.out.println("c) Att skapa webbplatser.");
+        System.out.print("Svar: ");
+        String answer133 = scanner.nextLine();
+        if (answer133.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att hantera distribuerade system och koordinera processer'.");
+        }
+
+        // Fråga 134
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad innebär begreppet 'Analys och rapportering' inom iPaaS?");
+        System.out.println("a) Möjligheten att skapa snygga diagram.");
+        System.out.println("b) Förmågan att samla in och analysera data från olika system och generera rapporter.");
+        System.out.println("c) Att kontrollera användares åtkomst till systemet.");
+        System.out.print("Svar: ");
+        String answer134 = scanner.nextLine();
+        if (answer134.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Förmågan att samla in och analysera data från olika system och generera rapporter'.");
+        }
+
+        // Fråga 135
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Varför är 'Grafisk översikt över plattformen' en viktig funktion inom iPaaS?");
+        System.out.println("a) För att rita fina bilder.");
+        System.out.println("b) För att ge användare en visuell representation av hur deras system är sammankopplade.");
+        System.out.println("c) För att spara pengar.");
+        System.out.print("Svar: ");
+        String answer135 = scanner.nextLine();
+        if (answer135.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) För att ge användare en visuell representation av hur deras system är sammankopplade'.");
+        }
+
+        // Fråga 136
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad möjliggör 'Schemalagda aktiviteter' inom iPaaS?");
+        System.out.println("a) Att spela in schemalagda TV-program.");
+        System.out.println("b) Möjligheten att schemalägga transformationer eller dataöverföringar vid specifika tider.");
+        System.out.println("c) Att skapa en kalender för företagsevenemang.");
+        System.out.print("Svar: ");
+        String answer136 = scanner.nextLine();
+        if (answer136.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Möjligheten att schemalägga transformationer eller dataöverföringar vid specifika tider'.");
+        }
+
+        // Fråga 137
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med replikor inom iPaaS?");
+        System.out.println("a) Att skapa backupkopior av användardata.");
+        System.out.println("b) Att garantera hög tillförlitlighet och felsäkerhet.");
+        System.out.println("c) Att distribuera datan till flera consumers.");
+        System.out.print("Svar: ");
+        String answer137 = scanner.nextLine();
+        if (answer137.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att garantera hög tillförlitlighet och felsäkerhet'.");
+        }
+
+        // Fråga 138
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en Consumergroup inom iPaaS?");
+        System.out.println("a) Att fördela reklam till olika målgrupper.");
+        System.out.println("b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång.");
+        System.out.println("c) Att analysera användarbeteenden på webbplatser.");
+        System.out.print("Svar: ");
+        String answer138 = scanner.nextLine();
+        if (answer138.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång'.");
+        }
+
+        // Fråga 139
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Zookeeper inom iPaaS?");
+        System.out.println("a) Att underhålla en djurpark.");
+        System.out.println("b) Att organisera och identifiera mäklarna i Kafka-klustret.");
+        System.out.println("c) Att övervaka trafikljus.");
+        System.out.print("Svar: ");
+        String answer139 = scanner.nextLine();
+        if (answer139.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att organisera och identifiera mäklarna i Kafka-klustret'.");
+        }
+
         // Fråga 71
         totalQuestions++;
         System.out.println("\nFråga " + totalQuestions + ": Vad står förkortningen 'API' för inom datavetenskap och programutveckling?");
