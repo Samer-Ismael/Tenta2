@@ -225,1001 +225,742 @@ public class IntegrationQuiz {
             System.out.println("Fel svar. Rätt svar är 'b) Publish-subscribe'.");
         }
 
-// Fråga 5
+        // Fråga 81
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med löst kopplade system i integration?");
-        System.out.println("a) De är enklare att implementera.");
-        System.out.println("b) De är mer flexibla och skalbara.");
-        System.out.println("c) De har högre prestanda.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad kallas integration utan plattform, där systemen interagerar direkt med varandra?");
+        System.out.println("a) API");
+        System.out.println("b) Peer to peer (P2P)");
+        System.out.println("c) REST");
         System.out.print("Svar: ");
-        String answer5 = scanner.nextLine();
-        if (answer5.equalsIgnoreCase("b")) {
+        String answer81 = scanner.nextLine();
+        if (answer81.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) De är mer flexibla och skalbara'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Peer to peer (P2P)'.");
         }
 
-// Fråga 6
+        // Fråga 82
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av Apache Kafka?");
-        System.out.println("a) Att skicka e-postmeddelanden.");
-        System.out.println("b) Att strömma och hantera stora mängder data i realtid.");
-        System.out.println("c) Att göra databasförfrågningar.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en nackdel med integration utan plattform?");
+        System.out.println("a) Bättre insyn i integrationen.");
+        System.out.println("b) Återanvändbara lösningar.");
+        System.out.println("c) Varje lösning blir individuell och skapar dålig insyn i integrationen.");
         System.out.print("Svar: ");
-        String answer6 = scanner.nextLine();
-        if (answer6.equalsIgnoreCase("b")) {
+        String answer82 = scanner.nextLine();
+        if (answer82.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att strömma och hantera stora mängder data i realtid'.");
+            System.out.println("Fel svar. Rätt svar är 'c) Varje lösning blir individuell och skapar dålig insyn i integrationen'.");
         }
 
-        // Fråga 7
+        // Fråga 83
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av protokoll används vanligtvis för att överföra e-postmeddelanden?");
-        System.out.println("a) HTTP");
-        System.out.println("b) SMTP");
-        System.out.println("c) FTP");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en plattform inom integration känd som?");
+        System.out.println("a) Systemintegration");
+        System.out.println("b) Peer to peer (P2P)");
+        System.out.println("c) P2P");
         System.out.print("Svar: ");
-        String answer7 = scanner.nextLine();
-        if (answer7.equalsIgnoreCase("b")) {
+        String answer83 = scanner.nextLine();
+        if (answer83.equalsIgnoreCase("a")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) SMTP'.");
+            System.out.println("Fel svar. Rätt svar är 'a) Systemintegration'.");
         }
 
-// Fråga 8
+        // Fråga 84
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vilket meddelandeformat används vanligtvis för att representera data i webb-API:er?");
-        System.out.println("a) JSON");
-        System.out.println("b) XML");
-        System.out.println("c) CSV");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med integration med plattform?");
+        System.out.println("a) Skapar en blackbox-upplevelse.");
+        System.out.println("b) Återanvändning av lösningar.");
+        System.out.println("c) Ökar beroendet av en specifik lösning.");
         System.out.print("Svar: ");
-        String answer8 = scanner.nextLine();
-        if (answer8.equalsIgnoreCase("a")) {
+        String answer84 = scanner.nextLine();
+        if (answer84.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'a) JSON'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Återanvändning av lösningar'.");
         }
 
-// Fråga 9
+        // Fråga 85
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av XML?");
-        System.out.println("a) Att skapa webbsidor.");
-        System.out.println("b) Att representera hierarkiska datastrukturer och konfigurationsfiler.");
-        System.out.println("c) Att generera slumpmässiga tal.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad ingår vanligtvis i en integrationsplattform?");
+        System.out.println("a) Endast Producers och Consumers.");
+        System.out.println("b) Producers, Consumers, och Topics.");
+        System.out.println("c) Endast Topics.");
         System.out.print("Svar: ");
-        String answer9 = scanner.nextLine();
-        if (answer9.equalsIgnoreCase("b")) {
+        String answer85 = scanner.nextLine();
+        if (answer85.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att representera hierarkiska datastrukturer och konfigurationsfiler'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Producers, Consumers, och Topics'.");
         }
 
-        // Fråga 10
+        // Fråga 86
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av datakommunikationsprotokoll används vanligtvis för att överföra filer över nätverk med stöd för kryptering?");
-        System.out.println("a) FTP");
-        System.out.println("b) HTTP");
-        System.out.println("c) SMTP");
+        System.out.println("\nFråga " + totalQuestions + ": Vad möjliggör en integrationsplattform utöver datautbyte?");
+        System.out.println("a) Felhantering och loggning.");
+        System.out.println("b) Filöverföringar via FTP.");
+        System.out.println("c) Schemalagda aktiviteter.");
         System.out.print("Svar: ");
-        String answer10 = scanner.nextLine();
-        if (answer10.equalsIgnoreCase("a")) {
+        String answer86 = scanner.nextLine();
+        if (answer86.equalsIgnoreCase("a")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'a) FTP'.");
+            System.out.println("Fel svar. Rätt svar är 'a) Felhantering och loggning'.");
         }
 
-// Fråga 11
+        // Fråga 87
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad innebär begreppet 'event-driven arkitektur'?");
-        System.out.println("a) Arkitekturen där alla komponenter är starkt beroende av varandra.");
-        System.out.println("b) Arkitekturen där systemet reagerar på händelser eller händelser som inträffar i realtid.");
-        System.out.println("c) Arkitekturen där all kommunikation sker genom textbaserade meddelanden.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med en iPaaS (Integration Platform as a Service)?");
+        System.out.println("a) Att skapa molnbaserade applikationer.");
+        System.out.println("b) Att möjliggöra integration mellan olika system.");
+        System.out.println("c) Att erbjuda datatransformationstjänster.");
         System.out.print("Svar: ");
-        String answer11 = scanner.nextLine();
-        if (answer11.equalsIgnoreCase("b")) {
+        String answer87 = scanner.nextLine();
+        if (answer87.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Arkitekturen där systemet reagerar på händelser eller händelser som inträffar i realtid'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra integration mellan olika system'.");
         }
 
-// Fråga 12
+        // Fråga 88
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av XML Schema (XSD)?");
-        System.out.println("a) Att skapa webbsidor.");
-        System.out.println("b) Att beskriva strukturen och datavalidering av XML-dokument.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är relevant att överväga när man väljer ett iPaaS-system?");
+        System.out.println("a) Vilka system kräver integration och hur de kommunicerar.");
+        System.out.println("b) Plattformens nuvarande popularitet.");
+        System.out.println("c) Systemens ålder.");
+        System.out.print("Svar: ");
+        String answer88 = scanner.nextLine();
+        if (answer88.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) Vilka system kräver integration och hur de kommunicerar'.");
+        }
+
+        // Fråga 89
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilken funktion används för att samla in och analysera data från olika system i en integrationsplattform?");
+        System.out.println("a) API");
+        System.out.println("b) Analys och rapportering.");
+        System.out.println("c) Behörigheter.");
+        System.out.print("Svar: ");
+        String answer89 = scanner.nextLine();
+        if (answer89.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Analys och rapportering'.");
+        }
+
+        // Fråga 90
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av integration använder API:er för att koppla samman system och appar?");
+        System.out.println("a) Dataintegration.");
+        System.out.println("b) Mobilintegration.");
+        System.out.println("c) Systemintegration.");
+        System.out.print("Svar: ");
+        String answer90 = scanner.nextLine();
+        if (answer90.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Systemintegration'.");
+        }
+
+        // Fråga 91
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad används EDIFACT för inom företag och organisationer?");
+        System.out.println("a) Att skapa webbplatser.");
+        System.out.println("b) För att hantera e-postmeddelanden.");
+        System.out.println("c) För datautbyte i beställningar, fakturor och leveranser.");
+        System.out.print("Svar: ");
+        String answer91 = scanner.nextLine();
+        if (answer91.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) För datautbyte i beställningar, fakturor och leveranser'.");
+        }
+
+        // Fråga 92
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är JSON (JavaScript Object Notation)?");
+        System.out.println("a) Ett datatransformationsspråk.");
+        System.out.println("b) Ett filöverföringsprotokoll.");
+        System.out.println("c) Ett självbeskrivande dataformat.");
+        System.out.print("Svar: ");
+        String answer92 = scanner.nextLine();
+        if (answer92.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Ett självbeskrivande dataformat'.");
+        }
+
+        // Fråga 93
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är Kafka?");
+        System.out.println("a) En integrationsplattform.");
+        System.out.println("b) Ett distributionsverktyg med brokers.");
+        System.out.println("c) En databashanterare.");
+        System.out.print("Svar: ");
+        String answer93 = scanner.nextLine();
+        if (answer93.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Ett distributionsverktyg med brokers'.");
+        }
+
+        // Fråga 94
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är Consumergroups inom Kafka?");
+        System.out.println("a) Grupper av konsumenter som delar samma kaffe.");
+        System.out.println("b) Grupper av consumers som arbetar tillsammans under en eller flera topics.");
+        System.out.println("c) Grupper av producenter som samarbetar för att producera data.");
+        System.out.print("Svar: ");
+        String answer94 = scanner.nextLine();
+        if (answer94.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Grupper av consumers som arbetar tillsammans under en eller flera topics'.");
+        }
+
+
+        // Fråga 95
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en FTP (File Transfer Protocol)?");
+        System.out.println("a) Att skapa dynamiska webbplatser.");
+        System.out.println("b) Att möjliggöra överföring av filer mellan servrar och system.");
+        System.out.println("c) Att hantera användares lösenord.");
+        System.out.print("Svar: ");
+        String answer95 = scanner.nextLine();
+        if (answer95.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra överföring av filer mellan servrar och system'.");
+        }
+
+        // Fråga 96
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en SFTP (Secure File Transfer Protocol)?");
+        System.out.println("a) Att skapa dynamiska webbplatser.");
+        System.out.println("b) Att möjliggöra säker överföring av filer via krypterad kommunikation.");
+        System.out.println("c) Att hantera användares lösenord.");
+        System.out.print("Svar: ");
+        String answer96 = scanner.nextLine();
+        if (answer96.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra säker överföring av filer via krypterad kommunikation'.");
+        }
+
+        // Fråga 97
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är TCP (Transmission Control Protocol) användbart för?");
+        System.out.println("a) Att erbjuda enkelt och snabbt datautbyte.");
+        System.out.println("b) Att säkerställa tillförlitlig och ordnad dataöverföring med flödeskontroll.");
+        System.out.println("c) Att hantera osorterad dataöverföring.");
+        System.out.print("Svar: ");
+        String answer97 = scanner.nextLine();
+        if (answer97.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att säkerställa tillförlitlig och ordnad dataöverföring med flödeskontroll'.");
+        }
+
+        // Fråga 98
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": När är det lämpligt att använda UDP (User Datagram Protocol)?");
+        System.out.println("a) När hastigheten är viktigare än pålitligheten.");
+        System.out.println("b) När nätverkskvaliteten är varierande.");
+        System.out.println("c) För större filer där pålitligheten är viktigare än hastigheten.");
+        System.out.print("Svar: ");
+        String answer98 = scanner.nextLine();
+        if (answer98.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) När hastigheten är viktigare än pålitligheten'.");
+        }
+
+        // Fråga 99
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med att använda Consumergroups inom Kafka?");
+        System.out.println("a) Att skapa backupkopior av data.");
+        System.out.println("b) Att dela på dataflödet mellan consumers och säkerställa att data bara blir läst av en consumer i gruppen.");
+        System.out.println("c) Att skapa flera topics för att lagra data.");
+        System.out.print("Svar: ");
+        String answer99 = scanner.nextLine();
+        if (answer99.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att dela på dataflödet mellan consumers och säkerställa att data bara blir läst av en consumer i gruppen'.");
+        }
+
+        // Fråga 100
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad används API:er inom integrationsplattformar för att göra?");
+        System.out.println("a) Hantera användares lösenord.");
+        System.out.println("b) Koppla samman system och appar och möjliggöra kommunikation och datautbyte mellan dem.");
+        System.out.println("c) Skapa dynamiska webbplatser.");
+        System.out.print("Svar: ");
+        String answer100 = scanner.nextLine();
+        if (answer100.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Koppla samman system och appar och möjliggöra kommunikation och datautbyte mellan dem'.");
+        }
+
+        // Fråga 101
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en iPaaS (Integration Platform as a Service)?");
+        System.out.println("a) Att hantera interna e-postmeddelanden.");
+        System.out.println("b) Att erbjuda en plattform för att automatisera processer över flera olika system och möjliggöra integration.");
+        System.out.println("c) Att skapa dynamiska webbplatser.");
+        System.out.print("Svar: ");
+        String answer101 = scanner.nextLine();
+        if (answer101.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att erbjuda en plattform för att automatisera processer över flera olika system och möjliggöra integration'.");
+        }
+
+        // Fråga 102
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är viktigt att beakta när man väljer ett iPaaS-system?");
+        System.out.println("a) Mängden lediga servrar i närmaste datacenter.");
+        System.out.println("b) Plattformens förmåga att erbjuda ready-made integrationer mot populära system.");
+        System.out.println("c) Vilka språk som används för att skapa webbplatser.");
+        System.out.print("Svar: ");
+        String answer102 = scanner.nextLine();
+        if (answer102.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Plattformens förmåga att erbjuda ready-made integrationer mot populära system'.");
+        }
+
+        // Fråga 103
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en funktion hos ett iPaaS-system?");
+        System.out.println("a) Att spara och organisera lösenord.");
+        System.out.println("b) Att kunna expanderas till flera system för framtida planering.");
+        System.out.println("c) Att kontinuerligt kontrollera hur många användare som använder systemet.");
+        System.out.print("Svar: ");
+        String answer103 = scanner.nextLine();
+        if (answer103.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att kunna expanderas till flera system för framtida planering'.");
+        }
+
+        // Fråga 104
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad används Xpath för inom XML-filer?");
+        System.out.println("a) Att skapa HTML-dokument.");
+        System.out.println("b) Att navigera och söka i XML-filer.");
         System.out.println("c) Att skapa Java-program.");
         System.out.print("Svar: ");
-        String answer12 = scanner.nextLine();
-        if (answer12.equalsIgnoreCase("b")) {
+        String answer104 = scanner.nextLine();
+        if (answer104.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att beskriva strukturen och datavalidering av XML-dokument'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att navigera och söka i XML-filer'.");
         }
 
-        // Fråga 13
+        // Fråga 105
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av JSON Web Tokens (JWT) inom API-säkerhet?");
-        System.out.println("a) Att kryptera hela API-kommunikationen.");
-        System.out.println("b) Att autentisera och auktorisera användare i en API.");
-        System.out.println("c) Att komprimera JSON-data för snabbare överföring.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med att använda XSLT inom XML?");
+        System.out.println("a) Att skapa HTML-dokument.");
+        System.out.println("b) Att omvandla data från XML-format till andra format.");
+        System.out.println("c) Att skapa JavaScript-kod.");
         System.out.print("Svar: ");
-        String answer13 = scanner.nextLine();
-        if (answer13.equalsIgnoreCase("b")) {
+        String answer105 = scanner.nextLine();
+        if (answer105.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att autentisera och auktorisera användare i en API'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att omvandla data från XML-format till andra format'.");
         }
 
-// Fråga 14
+        // Fråga 106
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av HTTPS i datakommunikation?");
-        System.out.println("a) Att skapa statiska webbsidor.");
-        System.out.println("b) Att säkra kommunikationen genom kryptering.");
-        System.out.println("c) Att hantera databasförfrågningar.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med EDIFACT inom företag och organisationer?");
+        System.out.println("a) Att hantera sociala medier.");
+        System.out.println("b) Att strukturera data för statistisk analys.");
+        System.out.println("c) Att möjliggöra standardiserat datautbyte för beställningar, fakturor och leveranser.");
         System.out.print("Svar: ");
-        String answer14 = scanner.nextLine();
-        if (answer14.equalsIgnoreCase("b")) {
+        String answer106 = scanner.nextLine();
+        if (answer106.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att säkra kommunikationen genom kryptering'.");
+            System.out.println("Fel svar. Rätt svar är 'c) Att möjliggöra standardiserat datautbyte för beställningar, fakturor och leveranser'.");
         }
 
-// Fråga 15
+        // Fråga 107
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med ett integrationsschema?");
-        System.out.println("a) Att beskriva strukturen av en relationsdatabas.");
-        System.out.println("b) Att definiera hur data ska transformeras och överföras mellan olika system.");
-        System.out.println("c) Att skapa användargränssnitt för webbapplikationer.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Kafka som distributionsverktyg?");
+        System.out.println("a) Att skapa dynamiska webbplatser.");
+        System.out.println("b) Att distribuera meddelanden och kommunicera mellan producenter och consumers.");
+        System.out.println("c) Att hantera användares lösenord.");
         System.out.print("Svar: ");
-        String answer15 = scanner.nextLine();
-        if (answer15.equalsIgnoreCase("b")) {
+        String answer107 = scanner.nextLine();
+        if (answer107.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att definiera hur data ska transformeras och överföras mellan olika system'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att distribuera meddelanden och kommunicera mellan producenter och consumers'.");
         }
 
-
-        // Fråga 16
+        // Fråga 108
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av HTTP-verb används vanligtvis för att hämta data från en webb-API?");
-        System.out.println("a) GET");
-        System.out.println("b) POST");
-        System.out.println("c) PUT");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en fördel med att använda replikor inom Kafka?");
+        System.out.println("a) Att minska datalagringen.");
+        System.out.println("b) Att garantera hög tillförlitlighet, felsäkerhet och skalbarhet.");
+        System.out.println("c) Att minska behovet av consumers.");
         System.out.print("Svar: ");
-        String answer16 = scanner.nextLine();
-        if (answer16.equalsIgnoreCase("a")) {
+        String answer108 = scanner.nextLine();
+        if (answer108.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'a) GET'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att garantera hög tillförlitlighet, felsäkerhet och skalbarhet'.");
         }
 
-// Fråga 17
+        // Fråga 109
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en XML Schema Definition (XSD) i XML-dokumentation?");
-        System.out.println("a) Att ange vilka element som är tillåtna i ett XML-dokument.");
-        System.out.println("b) Att definiera hur data ska presenteras grafiskt.");
-        System.out.println("c) Att specificera färger för XML-element.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Consumergroups inom Kafka?");
+        System.out.println("a) Att skapa backupkopior av data.");
+        System.out.println("b) Att fördela dataflödet mellan consumers och säkerställa att data bara blir läst av en consumer i gruppen.");
+        System.out.println("c) Att skapa flera producentgrupper.");
         System.out.print("Svar: ");
-        String answer17 = scanner.nextLine();
-        if (answer17.equalsIgnoreCase("a")) {
+        String answer109 = scanner.nextLine();
+        if (answer109.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'a) Att ange vilka element som är tillåtna i ett XML-dokument'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att fördela dataflödet mellan consumers och säkerställa att data bara blir läst av en consumer i gruppen'.");
         }
 
-// Fråga 18
+        // Fråga 111
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API-nyckel (API key) i API-säkerhet?");
-        System.out.println("a) Att skapa grafiska användargränssnitt.");
-        System.out.println("b) Att autentisera användare genom användarnamn och lösenord.");
-        System.out.println("c) Att identifiera och autentisera en applikation gentemot en API.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är skillnaden mellan TCP och UDP som överföringsprotokoll?");
+        System.out.println("a) TCP är snabbare än UDP.");
+        System.out.println("b) TCP garanterar ordnad dataöverföring medan UDP inte gör det.");
+        System.out.println("c) UDP används enbart för filöverföring.");
         System.out.print("Svar: ");
-        String answer18 = scanner.nextLine();
-        if (answer18.equalsIgnoreCase("c")) {
+        String answer111 = scanner.nextLine();
+        if (answer111.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att identifiera och autentisera en applikation gentemot en API'.");
+            System.out.println("Fel svar. Rätt svar är 'b) TCP garanterar ordnad dataöverföring medan UDP inte gör det'.");
         }
 
-        // Fråga 19
+        // Fråga 112
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av Web Services Description Language (WSDL) i webbtjänstintegration?");
-        System.out.println("a) Att beskriva webbsidor i HTML.");
-        System.out.println("b) Att specificera hur webbtjänster kommunicerar med varandra.");
-        System.out.println("c) Att definiera färgteman för webbapplikationer.");
+        System.out.println("\nFråga " + totalQuestions + ": När är det lämpligt att använda TCP som överföringsprotokoll?");
+        System.out.println("a) När hastigheten är viktigare än pålitligheten.");
+        System.out.println("b) För små filer där förlorade paket inte är avgörande.");
+        System.out.println("c) När filen är kritisk och varje del måste komma fram i rätt ordning.");
         System.out.print("Svar: ");
-        String answer19 = scanner.nextLine();
-        if (answer19.equalsIgnoreCase("b")) {
+        String answer112 = scanner.nextLine();
+        if (answer112.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att specificera hur webbtjänster kommunicerar med varandra'.");
+            System.out.println("Fel svar. Rätt svar är 'c) När filen är kritisk och varje del måste komma fram i rätt ordning'.");
         }
 
-// Fråga 20
+        // Fråga 113
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med att använda Asynchronous Messaging i integrationsarkitektur?");
-        System.out.println("a) Snabbare överföring av data.");
-        System.out.println("b) Minskad komplexitet.");
-        System.out.println("c) Förmåga att hantera stora datavolymer och fördröjningar.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Kafka's Zookeeper-server inom ett Kafka-kluster?");
+        System.out.println("a) Att skapa en säkerhetskopia av datan.");
+        System.out.println("b) Att organisera och identifiera mäklarna i klustret.");
+        System.out.println("c) Att hantera användares lösenord.");
         System.out.print("Svar: ");
-        String answer20 = scanner.nextLine();
-        if (answer20.equalsIgnoreCase("c")) {
+        String answer113 = scanner.nextLine();
+        if (answer113.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Förmåga att hantera stora datavolymer och fördröjningar'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att organisera och identifiera mäklarna i klustret'.");
         }
 
-// Fråga 21
+        // Fråga 114
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med en ESB (Enterprise Service Bus) i integrationsarkitektur?");
-        System.out.println("a) Att överföra e-postmeddelanden mellan företag.");
-        System.out.println("b) Att hantera kommunikationen mellan olika applikationer och tjänster.");
-        System.out.println("c) Att skapa webbplatser.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en ConsumerGroup inom Kafka?");
+        System.out.println("a) En grupp konsumenter som endast jobbar med försäljning.");
+        System.out.println("b) Flera consumers som jobbar tillsammans under en topic eller flera topics.");
+        System.out.println("c) En grupp av servrar som hanterar datalagring.");
         System.out.print("Svar: ");
-        String answer21 = scanner.nextLine();
-        if (answer21.equalsIgnoreCase("b")) {
+        String answer114 = scanner.nextLine();
+        if (answer114.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att hantera kommunikationen mellan olika applikationer och tjänster'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Flera consumers som jobbar tillsammans under en topic eller flera topics'.");
         }
 
-        // Fråga 22
+        // Fråga 115
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av XML-RPC och JSON-RPC i webbapplikationer?");
-        System.out.println("a) Att skapa användargränssnitt.");
-        System.out.println("b) Att göra fjärranrop (remote procedure calls) över nätverk.");
-        System.out.println("c) Att skapa visuella effekter i webbsidor.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med offsets inom Kafka?");
+        System.out.println("a) Att skapa en kopia av data.");
+        System.out.println("b) Att hålla reda på det senaste lästa meddelandet i varje partition.");
+        System.out.println("c) Att distribuera meddelanden inom klustret.");
         System.out.print("Svar: ");
-        String answer22 = scanner.nextLine();
-        if (answer22.equalsIgnoreCase("b")) {
+        String answer115 = scanner.nextLine();
+        if (answer115.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att göra fjärranrop (remote procedure calls) över nätverk'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att hålla reda på det senaste lästa meddelandet i varje partition'.");
         }
 
-// Fråga 23
+        // Fråga 116
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av XML Namespaces i XML-dokument?");
-        System.out.println("a) Att specificera färger för text i XML.");
-        System.out.println("b) Att undvika användning av XML.");
-        System.out.println("c) Att undvika konflikter mellan elementnamn från olika källor.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad används replikor till inom Kafka?");
+        System.out.println("a) Att skapa backupkopior av Kafka-servern.");
+        System.out.println("b) Att garantera hög tillförlitlighet och felsäkerhet.");
+        System.out.println("c) Att kontrollera flödet av meddelanden.");
         System.out.print("Svar: ");
-        String answer23 = scanner.nextLine();
-        if (answer23.equalsIgnoreCase("c")) {
+        String answer116 = scanner.nextLine();
+        if (answer116.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att undvika konflikter mellan elementnamn från olika källor'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att garantera hög tillförlitlighet och felsäkerhet'.");
         }
 
-// Fråga 24
+        // Fråga 117
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en webhook i API-integration?");
-        System.out.println("a) Att skapa API-dokumentation.");
-        System.out.println("b) Att skicka e-postmeddelanden.");
-        System.out.println("c) Att låta en tjänst reagera på händelser från en annan tjänst.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Topics inom Kafka?");
+        System.out.println("a) Att gruppera meddelanden baserat på deras storlek.");
+        System.out.println("b) Att organisera Kafka-mäklare i klustret.");
+        System.out.println("c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas.");
         System.out.print("Svar: ");
-        String answer24 = scanner.nextLine();
-        if (answer24.equalsIgnoreCase("c")) {
+        String answer117 = scanner.nextLine();
+        if (answer117.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att låta en tjänst reagera på händelser från en annan tjänst'.");
+            System.out.println("Fel svar. Rätt svar är 'c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas'.");
         }
 
-
-        // Fråga 25
+        // Fråga 118
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av GraphQL i API-design?");
-        System.out.println("a) Att skapa statiska webbsidor.");
-        System.out.println("b) Att beskriva och hämta data från en API med flexibla och anpassningsbara frågor.");
-        System.out.println("c) Att skicka e-postmeddelanden.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad används SFTP för inom integrationsplattformar?");
+        System.out.println("a) Att skicka filer över nätverket utan någon form av säkerhet.");
+        System.out.println("b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation.");
+        System.out.println("c) Att spela upp ljudfiler i realtid.");
         System.out.print("Svar: ");
-        String answer25 = scanner.nextLine();
-        if (answer25.equalsIgnoreCase("b")) {
+        String answer118 = scanner.nextLine();
+        if (answer118.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att beskriva och hämta data från en API med flexibla och anpassningsbara frågor'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation'.");
         }
 
-// Fråga 26
+        // Fråga 119
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är skillnaden mellan SQL och NoSQL-databaser?");
-        System.out.println("a) SQL-databaser är snabbare än NoSQL-databaser.");
-        System.out.println("b) SQL-databaser använder tabeller med en fast struktur, medan NoSQL-databaser är flexiblare och kan använda olika datamodeller.");
-        System.out.println("c) SQL-databaser kan inte använda indexering.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad används Xpath för när det gäller XML-filer?");
+        System.out.println("a) Att omvandla XML-filer till JSON-format.");
+        System.out.println("b) Att navigera och söka i XML-filer.");
+        System.out.println("c) Att skapa hierarkiska strukturer i XML.");
         System.out.print("Svar: ");
-        String answer26 = scanner.nextLine();
-        if (answer26.equalsIgnoreCase("b")) {
+        String answer119 = scanner.nextLine();
+        if (answer119.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) SQL-databaser använder tabeller med en fast struktur, medan NoSQL-databaser är flexiblare och kan använda olika datamodeller'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att navigera och söka i XML-filer'.");
         }
 
-// Fråga 27
+        // Fråga 120
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av WebSocket-protokollet i realtidskommunikation?");
-        System.out.println("a) Att skicka e-postmeddelanden.");
-        System.out.println("b) Att hämta data från en webbserver.");
-        System.out.println("c) Att möjliggöra tvåvägskommunikation i realtid mellan klient och server.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad används XSLT för inom XML?");
+        System.out.println("a) Att konvertera XML-filer till binär data.");
+        System.out.println("b) Att omvandla hämtad data från XML-format till ett annat format, som HTML eller XHTML.");
+        System.out.println("c) Att kryptera XML-filer.");
         System.out.print("Svar: ");
-        String answer27 = scanner.nextLine();
-        if (answer27.equalsIgnoreCase("c")) {
+        String answer120 = scanner.nextLine();
+        if (answer120.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att möjliggöra tvåvägskommunikation i realtid mellan klient och server'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att omvandla hämtad data från XML-format till ett annat format, som HTML eller XHTML'.");
         }
 
 
-        // Fråga 28
+        // Fråga 121
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av RESTful API i webbapplikationer?");
-        System.out.println("a) Att skapa användargränssnitt.");
-        System.out.println("b) Att definiera datastrukturer i databaser.");
-        System.out.println("c) Att tillhandahålla ett gränssnitt för att hämta och manipulera resurser över HTTP.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med FTP (File Transfer Protocol) inom integrationsplattformar?");
+        System.out.println("a) Att skapa krypterade tunnelnätverk.");
+        System.out.println("b) Att automatisera processen att flytta eller hantera filer mellan olika platser.");
+        System.out.println("c) Att skicka e-postmeddelanden över nätverket.");
         System.out.print("Svar: ");
-        String answer28 = scanner.nextLine();
-        if (answer28.equalsIgnoreCase("c")) {
+        String answer121 = scanner.nextLine();
+        if (answer121.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att tillhandahålla ett gränssnitt för att hämta och manipulera resurser över HTTP'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att automatisera processen att flytta eller hantera filer mellan olika platser'.");
         }
 
-// Fråga 29
+        // Fråga 122
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med att använda ETL (Extract, Transform, Load) i datamigrering?");
-        System.out.println("a) Att minska datavolymer.");
-        System.out.println("b) Att automatisera datatransformation och laddning från en källa till en måldatabas.");
-        System.out.println("c) Att eliminera behovet av databaser.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med SFTP (Secure File Transfer Protocol) inom integrationsplattformar?");
+        System.out.println("a) Att göra filöverföringar med hög hastighet.");
+        System.out.println("b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation.");
+        System.out.println("c) Att övervaka nätverkstrafik.");
         System.out.print("Svar: ");
-        String answer29 = scanner.nextLine();
-        if (answer29.equalsIgnoreCase("b")) {
+        String answer122 = scanner.nextLine();
+        if (answer122.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att automatisera datatransformation och laddning från en källa till en måldatabas'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation'.");
         }
 
-// Fråga 30
+        // Fråga 123
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av OAuth i API-autentisering?");
-        System.out.println("a) Att kryptera API-data.");
-        System.out.println("b) Att autentisera användare med användarnamn och lösenord.");
-        System.out.println("c) Att tillåta tredjepartsapplikationer att få åtkomst till användardata utan att dela lösenordet.");
+        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av datautbyte används EDIFACT för inom företag och organisationer?");
+        System.out.println("a) Streaming av videofiler.");
+        System.out.println("b) Beställningar, fakturor, leveranser och handelsrelaterade ärenden.");
+        System.out.println("c) Sociala medier inlägg.");
         System.out.print("Svar: ");
-        String answer30 = scanner.nextLine();
-        if (answer30.equalsIgnoreCase("c")) {
+        String answer123 = scanner.nextLine();
+        if (answer123.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att tillåta tredjepartsapplikationer att få åtkomst till användardata utan att dela lösenordet'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Beställningar, fakturor, leveranser och handelsrelaterade ärenden'.");
         }
 
-
-        // Fråga 31
+        // Fråga 124
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API Gateway i API-hanteringen?");
-        System.out.println("a) Att skicka e-postmeddelanden.");
-        System.out.println("b) Att aggregera och hantera flera API-anrop till en enda punkt.");
-        System.out.println("c) Att skapa databaser.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är JSON (JavaScript Object Notation)?");
+        System.out.println("a) En avancerad programmeringsspråk.");
+        System.out.println("b) Ett självbeskrivande format som används för datautbyte.");
+        System.out.println("c) En webbläsare.");
         System.out.print("Svar: ");
-        String answer31 = scanner.nextLine();
-        if (answer31.equalsIgnoreCase("b")) {
+        String answer124 = scanner.nextLine();
+        if (answer124.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att aggregera och hantera flera API-anrop till en enda punkt'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Ett självbeskrivande format som används för datautbyte'.");
         }
 
-// Fråga 32
+        // Fråga 125
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med att använda Content Delivery Networks (CDN) i webbapplikationer?");
-        System.out.println("a) Att minska antalet användare som kan komma åt webbapplikationen.");
-        System.out.println("b) Att öka prestandan genom att distribuera innehåll närmare användarna.");
-        System.out.println("c) Att förhindra angrepp mot webbapplikationen.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är Kafka?");
+        System.out.println("a) En typ av kaffe.");
+        System.out.println("b) Ett webbhotellföretag.");
+        System.out.println("c) Ett distributionsverktyg med ett kluster av minst 3 mäklare.");
         System.out.print("Svar: ");
-        String answer32 = scanner.nextLine();
-        if (answer32.equalsIgnoreCase("b")) {
+        String answer125 = scanner.nextLine();
+        if (answer125.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att öka prestandan genom att distribuera innehåll närmare användarna'.");
+            System.out.println("Fel svar. Rätt svar är 'c) Ett distributionsverktyg med ett kluster av minst 3 mäklare'.");
         }
 
-// Fråga 33
+        // Fråga 126
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av SOAP-protokollet i webbtjänstintegration?");
-        System.out.println("a) Att sända TV-program över internet.");
-        System.out.println("b) Att skapa webb-API:er.");
-        System.out.println("c) Att definiera standardiserade meddelandestrukturer och protokoll för kommunikation.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad används Topics till inom Kafka?");
+        System.out.println("a) Att organisera kategorier av användare på en webbplats.");
+        System.out.println("b) Att organisera Kafka-mäklare i klustret.");
+        System.out.println("c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas.");
         System.out.print("Svar: ");
-        String answer33 = scanner.nextLine();
-        if (answer33.equalsIgnoreCase("c")) {
+        String answer126 = scanner.nextLine();
+        if (answer126.equalsIgnoreCase("c")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att definiera standardiserade meddelandestrukturer och protokoll för kommunikation'.");
+            System.out.println("Fel svar. Rätt svar är 'c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas'.");
         }
 
-// Fråga 34
+        // Fråga 127
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API-nyckel (API key) i API-säkerhet?");
-        System.out.println("a) Att kryptera all data som skickas till och från en API.");
-        System.out.println("b) Att autentisera och auktorisera användare.");
-        System.out.println("c) Att identifiera och autentisera en applikation gentemot en API.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en Offset inom Kafka?");
+        System.out.println("a) En kaka med choklad.");
+        System.out.println("b) En läsposition som används för att hålla reda på det senaste lästa meddelandet i varje partition.");
+        System.out.println("c) En kopia av datan.");
         System.out.print("Svar: ");
-        String answer34 = scanner.nextLine();
-        if (answer34.equalsIgnoreCase("c")) {
+        String answer127 = scanner.nextLine();
+        if (answer127.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att identifiera och autentisera en applikation gentemot en API'.");
+            System.out.println("Fel svar. Rätt svar är 'b) En läsposition som används för att hålla reda på det senaste lästa meddelandet i varje partition'.");
         }
 
-// Fråga 35
+        // Fråga 128
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av ett meddelandekösystem i integrationsarkitektur?");
-        System.out.println("a) Att hantera användarautentisering.");
-        System.out.println("b) Att skapa statiska webbsidor.");
-        System.out.println("c) Att skicka och ta emot meddelanden mellan olika system med fördröjning.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med replikor inom Kafka?");
+        System.out.println("a) Att skapa backupkopior av användardata.");
+        System.out.println("b) Att garantera hög tillförlitlighet och felsäkerhet.");
+        System.out.println("c) Att distribuera datan till flera consumers.");
         System.out.print("Svar: ");
-        String answer35 = scanner.nextLine();
-        if (answer35.equalsIgnoreCase("c")) {
+        String answer128 = scanner.nextLine();
+        if (answer128.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att skicka och ta emot meddelanden mellan olika system med fördröjning'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att garantera hög tillförlitlighet och felsäkerhet'.");
         }
 
-// Fråga 36
+        // Fråga 129
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en XML-parser i integrationsarkitektur?");
-        System.out.println("a) Att skapa grafiska användargränssnitt.");
-        System.out.println("b) Att konvertera XML-data till ett användbart format och vice versa.");
-        System.out.println("c) Att köra databasförfrågningar.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en Consumergroup inom Kafka?");
+        System.out.println("a) Att fördela reklam till olika målgrupper.");
+        System.out.println("b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång.");
+        System.out.println("c) Att analysera användarbeteenden på webbplatser.");
         System.out.print("Svar: ");
-        String answer36 = scanner.nextLine();
-        if (answer36.equalsIgnoreCase("b")) {
+        String answer129 = scanner.nextLine();
+        if (answer129.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att konvertera XML-data till ett användbart format och vice versa'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång'.");
         }
 
-// Fråga 37
+        // Fråga 130
         totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av ett API-schema (API schema) i API-design?");
-        System.out.println("a) Att beskriva användargränssnittet för en webbapplikation.");
-        System.out.println("b) Att definiera hur data ska överföras och struktureras i en API.");
-        System.out.println("c) Att skapa användarprofiler.");
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Zookeeper inom Kafka?");
+        System.out.println("a) Att underhålla en djurpark.");
+        System.out.println("b) Att organisera och identifiera mäklarna i Kafka-klustret.");
+        System.out.println("c) Att övervaka trafikljus.");
         System.out.print("Svar: ");
-        String answer37 = scanner.nextLine();
-        if (answer37.equalsIgnoreCase("b")) {
+        String answer130 = scanner.nextLine();
+        if (answer130.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att definiera hur data ska överföras och struktureras i en API'.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att organisera och identifiera mäklarna i Kafka-klustret'.");
         }
-
-// Fråga 38
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är fördelen med att använda en Reverse Proxy i webbapplikationens arkitektur?");
-        System.out.println("a) Att alltid blockera användare från att komma åt webbapplikationen.");
-        System.out.println("b) Att öka säkerheten genom att dölja interna systemdetaljer.");
-        System.out.println("c) Att visa källkoden för webbapplikationen för alla användare.");
-        System.out.print("Svar: ");
-        String answer38 = scanner.nextLine();
-        if (answer38.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att öka säkerheten genom att dölja interna systemdetaljer'.");
-        }
-
-// Fråga 39
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av HTTP-statuskoder i API-kommunikation?");
-        System.out.println("a) Att ange färger för webbsidor.");
-        System.out.println("b) Att specificera hur data ska struktureras i en JSON-fil.");
-        System.out.println("c) Att indikera resultatet av en begäran, till exempel om den lyckades eller misslyckades.");
-        System.out.print("Svar: ");
-        String answer39 = scanner.nextLine();
-        if (answer39.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att indikera resultatet av en begäran, till exempel om den lyckades eller misslyckades'.");
-        }
-
-// Fråga 40
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en OAuth 2.0-bärare (Bearer) token i API-autentisering?");
-        System.out.println("a) Att skapa användarprofiler.");
-        System.out.println("b) Att autentisera användare med användarnamn och lösenord.");
-        System.out.println("c) Att auktorisera en användare att få åtkomst till en resurs.");
-        System.out.print("Svar: ");
-        String answer40 = scanner.nextLine();
-        if (answer40.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att auktorisera en användare att få åtkomst till en resurs'.");
-        }
-
-        // Fråga 41
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av CORS (Cross-Origin Resource Sharing) i webbutveckling?");
-        System.out.println("a) Att kryptera lösenord i databaser.");
-        System.out.println("b) Att tillåta eller begränsa resursåtkomst från olika domäner i webbläsaren.");
-        System.out.println("c) Att blockera all inkommande trafik till en webbplats.");
-        System.out.print("Svar: ");
-        String answer41 = scanner.nextLine();
-        if (answer41.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att tillåta eller begränsa resursåtkomst från olika domäner i webbläsaren'.");
-        }
-
-// Fråga 42
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en serviceorienterad arkitektur (SOA) i systemintegration?");
-        System.out.println("a) Att skapa interaktiva webbplatser.");
-        System.out.println("b) Att organisera data i en databas.");
-        System.out.println("c) Att strukturera och integrera tjänster för att möjliggöra systeminteraktion.");
-        System.out.print("Svar: ");
-        String answer42 = scanner.nextLine();
-        if (answer42.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att strukturera och integrera tjänster för att möjliggöra systeminteraktion'.");
-        }
-
-// Fråga 43
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API-dokumentation i utvecklingen av API:er?");
-        System.out.println("a) Att generera lösenord för användare.");
-        System.out.println("b) Att definiera vilka användare som har åtkomst till ett API.");
-        System.out.println("c) Att beskriva hur man använder och integrerar med ett API.");
-        System.out.print("Svar: ");
-        String answer43 = scanner.nextLine();
-        if (answer43.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att beskriva hur man använder och integrerar med ett API'.");
-        }
-
-// Fråga 44
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en webhook i API-integration?");
-        System.out.println("a) Att skapa grafiska användargränssnitt.");
-        System.out.println("b) Att skicka e-postmeddelanden.");
-        System.out.println("c) Att låta en tjänst reagera på händelser från en annan tjänst.");
-        System.out.print("Svar: ");
-        String answer44 = scanner.nextLine();
-        if (answer44.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att låta en tjänst reagera på händelser från en annan tjänst'.");
-        }
-
-// Fråga 45
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL-injektion i cyberangrepp?");
-        System.out.println("a) Att kryptera data under överföring.");
-        System.out.println("b) Att injicera skadlig SQL-kod i en applikation för att kompromettera en databas.");
-        System.out.println("c) Att använda en webbläsare för att surfa på internet.");
-        System.out.print("Svar: ");
-        String answer45 = scanner.nextLine();
-        if (answer45.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att injicera skadlig SQL-kod i en applikation för att kompromettera en databas'.");
-        }
-
-// Fråga 46
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en HTTP GET-förfrågan i API-kommunikation?");
-        System.out.println("a) Att skicka data till en server för lagring.");
-        System.out.println("b) Att hämta data från en server.");
-        System.out.println("c) Att uppdatera data på en server.");
-        System.out.print("Svar: ");
-        String answer46 = scanner.nextLine();
-        if (answer46.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att hämta data från en server'.");
-        }
-
-// Fråga 47
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en FTP (File Transfer Protocol)-server?");
-        System.out.println("a) Att spela upp musikfiler.");
-        System.out.println("b) Att överföra filer över nätverket.");
-        System.out.println("c) Att skapa användarprofiler.");
-        System.out.print("Svar: ");
-        String answer47 = scanner.nextLine();
-        if (answer47.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att överföra filer över nätverket'.");
-        }
-
-// Fråga 48
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL JOIN-operation i databashantering?");
-        System.out.println("a) Att ta bort data från en tabell.");
-        System.out.println("b) Att uppdatera befintlig data i en tabell.");
-        System.out.println("c) Att kombinera data från flera tabeller baserat på gemensamma kolumner.");
-        System.out.print("Svar: ");
-        String answer48 = scanner.nextLine();
-        if (answer48.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att kombinera data från flera tabeller baserat på gemensamma kolumner'.");
-        }
-
-// Fråga 49
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en DNS (Domain Name System)-server?");
-        System.out.println("a) Att lagra användarnamn och lösenord.");
-        System.out.println("b) Att översätta webbadresser (URL:er) till IP-adresser.");
-        System.out.println("c) Att skicka e-postmeddelanden.");
-        System.out.print("Svar: ");
-        String answer49 = scanner.nextLine();
-        if (answer49.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att översätta webbadresser (URL:er) till IP-adresser'.");
-        }
-
-// Fråga 50
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en HTTPS-anslutning i webbapplikationer?");
-        System.out.println("a) Att skicka e-postmeddelanden.");
-        System.out.println("b) Att säkert överföra data över internet med kryptering.");
-        System.out.println("c) Att visa reklam på webbsidor.");
-        System.out.print("Svar: ");
-        String answer50 = scanner.nextLine();
-        if (answer50.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att säkert överföra data över internet med kryptering'.");
-        }
-
-
-        // Fråga 51
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en API-versionering i API-design?");
-        System.out.println("a) Att byta ut en API helt och hållet.");
-        System.out.println("b) Att möjliggöra ändringar och förbättringar i en API utan att påverka befintliga användare.");
-        System.out.println("c) Att stänga av en API och ersätta den med en ny.");
-        System.out.print("Svar: ");
-        String answer51 = scanner.nextLine();
-        if (answer51.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra ändringar och förbättringar i en API utan att påverka befintliga användare'.");
-        }
-
-// Fråga 52
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en UML-diagram i systemdesign?");
-        System.out.println("a) Att spara lösenord.");
-        System.out.println("b) Att modellera och visualisera systemets struktur och interaktioner.");
-        System.out.println("c) Att skapa webb-API:er.");
-        System.out.print("Svar: ");
-        String answer52 = scanner.nextLine();
-        if (answer52.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att modellera och visualisera systemets struktur och interaktioner'.");
-        }
-
-// Fråga 53
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Docker-container i utvecklings- och driftmiljöer?");
-        System.out.println("a) Att bygga webbapplikationer.");
-        System.out.println("b) Att isolera och distribuera applikationskomponenter med sina beroenden.");
-        System.out.println("c) Att skapa grafiska användargränssnitt.");
-        System.out.print("Svar: ");
-        String answer53 = scanner.nextLine();
-        if (answer53.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att isolera och distribuera applikationskomponenter med sina beroenden'.");
-        }
-
-// Fråga 54
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CDN (Content Delivery Network) i webbutveckling?");
-        System.out.println("a) Att skapa databaser.");
-        System.out.println("b) Att accelerera leverans av webb- och mediainnehåll till användare genom nära geografisk placering.");
-        System.out.println("c) Att skapa lösenord.");
-        System.out.print("Svar: ");
-        String answer54 = scanner.nextLine();
-        if (answer54.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att accelerera leverans av webb- och mediainnehåll till användare genom nära geografisk placering'.");
-        }
-
-// Fråga 55
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en NAT (Network Address Translation)-enhet i nätverksarkitektur?");
-        System.out.println("a) Att identifiera användare i ett nätverk.");
-        System.out.println("b) Att hantera IP-adresser och möjliggöra delad internetåtkomst för flera enheter.");
-        System.out.println("c) Att blockera all nätverkstrafik.");
-        System.out.print("Svar: ");
-        String answer55 = scanner.nextLine();
-        if (answer55.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att hantera IP-adresser och möjliggöra delad internetåtkomst för flera enheter'.");
-        }
-
-// Fråga 56
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL INDEX i databashantering?");
-        System.out.println("a) Att lagra användardata.");
-        System.out.println("b) Att kryptera känslig information.");
-        System.out.println("c) Att förbättra frågeprestanda genom att snabba upp sökningar i databaser.");
-        System.out.print("Svar: ");
-        String answer56 = scanner.nextLine();
-        if (answer56.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att förbättra frågeprestanda genom att snabba upp sökningar i databaser'.");
-        }
-
-// Fråga 57
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en VPN (Virtual Private Network)-tjänst?");
-        System.out.println("a) Att lagra foton och videor.");
-        System.out.println("b) Att skydda användares personliga filer.");
-        System.out.println("c) Att skapa en säker och krypterad anslutning över ett osäkert nätverk, som internet.");
-        System.out.print("Svar: ");
-        String answer57 = scanner.nextLine();
-        if (answer57.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att skapa en säker och krypterad anslutning över ett osäkert nätverk, som internet'.");
-        }
-
-// Fråga 58
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av ett MVC (Model-View-Controller)-arkitekturmönster i mjukvaruutveckling?");
-        System.out.println("a) Att hantera användares inloggning och lösenord.");
-        System.out.println("b) Att skapa databaser.");
-        System.out.println("c) Att separera applikationslogik, användargränssnitt och datahantering.");
-        System.out.print("Svar: ");
-        String answer58 = scanner.nextLine();
-        if (answer58.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att separera applikationslogik, användargränssnitt och datahantering'.");
-        }
-
-// Fråga 59
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en WebSocket i realtidskommunikation?");
-        System.out.println("a) Att skapa statiska webbsidor.");
-        System.out.println("b) Att möjliggöra tvåvägskommunikation mellan en webbläsare och en server i realtid.");
-        System.out.println("c) Att hantera användarautentisering.");
-        System.out.print("Svar: ");
-        String answer59 = scanner.nextLine();
-        if (answer59.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra tvåvägskommunikation mellan en webbläsare och en server i realtid'.");
-        }
-
-// Fråga 60
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en GraphQL-fråga i API-kommunikation?");
-        System.out.println("a) Att hämta en lista över alla användare i en databas.");
-        System.out.println("b) Att göra komplexa och anpassade frågor för att hämta specifik data från en API.");
-        System.out.println("c) Att skicka e-postmeddelanden.");
-        System.out.print("Svar: ");
-        String answer60 = scanner.nextLine();
-        if (answer60.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att göra komplexa och anpassade frågor för att hämta specifik data från en API'.");
-        }
-
-        // Fråga 61
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en NoSQL-databas i mjukvaruutveckling?");
-        System.out.println("a) Att endast lagra numeriska data.");
-        System.out.println("b) Att lagra data som inte passar i en traditionell relationsdatabas och som kräver flexibel datamodellering.");
-        System.out.println("c) Att använda i stället för en webbläsare.");
-        System.out.print("Svar: ");
-        String answer61 = scanner.nextLine();
-        if (answer61.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att lagra data som inte passar i en traditionell relationsdatabas och som kräver flexibel datamodellering'.");
-        }
-
-// Fråga 62
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en ESB (Enterprise Service Bus) i systemintegration?");
-        System.out.println("a) Att skapa webb-API:er.");
-        System.out.println("b) Att övervaka användares internettrafik.");
-        System.out.println("c) Att hantera kommunikationen mellan olika system och tjänster.");
-        System.out.print("Svar: ");
-        String answer62 = scanner.nextLine();
-        if (answer62.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att hantera kommunikationen mellan olika system och tjänster'.");
-        }
-
-// Fråga 63
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Swagger-dokumentation i API-design?");
-        System.out.println("a) Att skapa interaktiva webbplatser.");
-        System.out.println("b) Att generera automatisk dokumentation för en API.");
-        System.out.println("c) Att kryptera användardata.");
-        System.out.print("Svar: ");
-        String answer63 = scanner.nextLine();
-        if (answer63.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att generera automatisk dokumentation för en API'.");
-        }
-
-// Fråga 64
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en DDoS (Distributed Denial of Service)-attack i cyberangrepp?");
-        System.out.println("a) Att kryptera data på en server.");
-        System.out.println("b) Att överbelasta en webbplats eller tjänst för att göra den otillgänglig för användare.");
-        System.out.println("c) Att stjäla användares lösenord.");
-        System.out.print("Svar: ");
-        String answer64 = scanner.nextLine();
-        if (answer64.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att överbelasta en webbplats eller tjänst för att göra den otillgänglig för användare'.");
-        }
-
-// Fråga 65
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CI/CD-pipeline (Continuous Integration/Continuous Deployment) i mjukvaruutveckling?");
-        System.out.println("a) Att generera slumpmässiga användarnamn.");
-        System.out.println("b) Att kontinuerligt integrera och testa kodändringar och sedan distribuera dem till produktion.");
-        System.out.println("c) Att skapa diagram och grafer.");
-        System.out.print("Svar: ");
-        String answer65 = scanner.nextLine();
-        if (answer65.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att kontinuerligt integrera och testa kodändringar och sedan distribuera dem till produktion'.");
-        }
-
-// Fråga 66
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en HMAC (Hash-based Message Authentication Code) i API-säkerhet?");
-        System.out.println("a) Att kryptera hela API-kommunikationen.");
-        System.out.println("b) Att autentisera och verifiera integriteten av meddelanden som skickas över en osäker kanal.");
-        System.out.println("c) Att blockera all nätverkstrafik.");
-        System.out.print("Svar: ");
-        String answer66 = scanner.nextLine();
-        if (answer66.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att autentisera och verifiera integriteten av meddelanden som skickas över en osäker kanal'.");
-        }
-
-// Fråga 67
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL-TRIGGER i databashantering?");
-        System.out.println("a) Att spela upp ljudfiler.");
-        System.out.println("b) Att automatiskt utföra en uppgift eller åtgärd när vissa händelser inträffar i en databas.");
-        System.out.println("c) Att blockera användare från att komma åt en databas.");
-        System.out.print("Svar: ");
-        String answer67 = scanner.nextLine();
-        if (answer67.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att automatiskt utföra en uppgift eller åtgärd när vissa händelser inträffar i en databas'.");
-        }
-
-// Fråga 68
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en ARP (Address Resolution Protocol)-förfrågan i nätverkskommunikation?");
-        System.out.println("a) Att hämta webbsidor från internet.");
-        System.out.println("b) Att upptäcka en annan enhets MAC-adress baserat på dess IP-adress.");
-        System.out.println("c) Att skicka e-postmeddelanden.");
-        System.out.print("Svar: ");
-        String answer68 = scanner.nextLine();
-        if (answer68.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att upptäcka en annan enhets MAC-adress baserat på dess IP-adress'.");
-        }
-
-// Fråga 69
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CMS (Content Management System)-plattform?");
-        System.out.println("a) Att skapa molnbaserade applikationer.");
-        System.out.println("b) Att hantera och publicera innehåll på webbplatser.");
-        System.out.println("c) Att generera lösenord.");
-        System.out.print("Svar: ");
-        String answer69 = scanner.nextLine();
-        if (answer69.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att hantera och publicera innehåll på webbplatser'.");
-        }
-
-// Fråga 70
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Reverse Proxy-server i nätverksarkitektur?");
-        System.out.println("a) Att kryptera användarnas lösenord.");
-        System.out.println("b) Att blockera all inkommande trafik till en webbplats.");
-        System.out.println("c) Att agera som en mellanhand mellan användare och interna servrar för att förbättra prestanda och säkerhet.");
-        System.out.print("Svar: ");
-        String answer70 = scanner.nextLine();
-        if (answer70.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att agera som en mellanhand mellan användare och interna servrar för att förbättra prestanda och säkerhet'.");
-        }
-
 
         // Visa resultat
         System.out.println("\nDitt resultat: " + score + " av " + totalQuestions + " rätt.");
