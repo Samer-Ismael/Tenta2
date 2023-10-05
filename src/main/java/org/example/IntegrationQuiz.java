@@ -10,6 +10,160 @@ public class IntegrationQuiz {
         int score = 0;
         int totalQuestions = 0;
 
+        // Fråga 71
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad står förkortningen 'API' för inom datavetenskap och programutveckling?");
+        System.out.println("a) Application Programming Interface");
+        System.out.println("b) Advanced Programming Instruction");
+        System.out.println("c) Automated Protocol Integration");
+        System.out.print("Svar: ");
+        String answer71 = scanner.nextLine();
+        if (answer71.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) Application Programming Interface'.");
+        }
+
+// Fråga 72
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med en RESTful API (Representational State Transfer) i webbtjänster?");
+        System.out.println("a) Att lagra användardata.");
+        System.out.println("b) Att möjliggöra kommunikation och datautbyte mellan olika system över HTTP-protokollet.");
+        System.out.println("c) Att skapa webbplatser med interaktiva användargränssnitt.");
+        System.out.print("Svar: ");
+        String answer72 = scanner.nextLine();
+        if (answer72.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra kommunikation och datautbyte mellan olika system över HTTP-protokollet'.");
+        }
+
+// Fråga 73
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilken HTTP-metod används vanligtvis för att hämta data från en server via en RESTful API?");
+        System.out.println("a) POST");
+        System.out.println("b) GET");
+        System.out.println("c) PUT");
+        System.out.print("Svar: ");
+        String answer73 = scanner.nextLine();
+        if (answer73.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) GET'.");
+        }
+
+        FTP:
+
+// Fråga 74
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad står förkortningen 'FTP' för inom datavetenskap och nätverkskommunikation?");
+        System.out.println("a) File Transfer Protocol");
+        System.out.println("b) Fast Text Processing");
+        System.out.println("c) File Tracking Platform");
+        System.out.print("Svar: ");
+        String answer74 = scanner.nextLine();
+        if (answer74.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) File Transfer Protocol'.");
+        }
+
+// Fråga 75
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket syfte tjänar FTP (File Transfer Protocol) främst inom nätverkskommunikation?");
+        System.out.println("a) Att spela upp musikfiler.");
+        System.out.println("b) Att överföra filer över ett nätverk.");
+        System.out.println("c) Att hantera e-postmeddelanden.");
+        System.out.print("Svar: ");
+        String answer75 = scanner.nextLine();
+        if (answer75.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att överföra filer över ett nätverk'.");
+        }
+
+// Fråga 76
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket portnummer används vanligtvis för FTP (File Transfer Protocol) över TCP?");
+        System.out.println("a) Port 80");
+        System.out.println("b) Port 21");
+        System.out.println("c) Port 443");
+        System.out.print("Svar: ");
+        String answer76 = scanner.nextLine();
+        if (answer76.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Port 21'.");
+        }
+
+        SFTP:
+
+// Fråga 77
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad står förkortningen 'SFTP' för inom nätverkskommunikation?");
+        System.out.println("a) Secure File Transfer Protocol");
+        System.out.println("b) Simple Text Formatting Protocol");
+        System.out.println("c) Server File Tracking Platform");
+        System.out.print("Svar: ");
+        String answer77 = scanner.nextLine();
+        if (answer77.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) Secure File Transfer Protocol'.");
+        }
+
+// Fråga 78
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudskillnaden mellan FTP och SFTP?");
+        System.out.println("a) FTP använder UDP (User Datagram Protocol), medan SFTP använder TCP (Transmission Control Protocol).");
+        System.out.println("b) SFTP är en säker version av FTP som krypterar dataöverföring.");
+        System.out.println("c) FTP kan använda alla portnummer, medan SFTP är begränsad till port 22.");
+        System.out.print("Svar: ");
+        String answer78 = scanner.nextLine();
+        if (answer78.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) SFTP är en säker version av FTP som krypterar dataöverföring'.");
+        }
+
+// Fråga 79
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket protokoll används vanligtvis för att säkerställa krypterad kommunikation i SFTP?");
+        System.out.println("a) HTTP");
+        System.out.println("b) SSL/TLS");
+        System.out.println("c) SMTP");
+        System.out.print("Svar: ");
+        String answer79 = scanner.nextLine();
+        if (answer79.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) SSL/TLS'.");
+        }
+
+// Fråga 80
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en typisk användning av SFTP i en organisation eller på en server?");
+        System.out.println("a) Att lagra användares lösenord.");
+        System.out.println("b) Att säkert överföra filer och data över nätverk.");
+        System.out.println("c) Att skapa webbplatser med dynamiskt innehåll.");
+        System.out.print("Svar: ");
+        String answer80 = scanner.nextLine();
+        if (answer80.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att säkert överföra filer och data över nätverk'.");
+        }
+
         // Fråga 1
         totalQuestions++;
         System.out.println("Fråga " + totalQuestions + ": Vad står API för?");
