@@ -10,6 +10,337 @@ public class IntegrationQuiz {
         int score = 0;
         int totalQuestions = 0;
 
+        // Fråga 162
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en av nackdelarna med integration utan plattform (punkt till punkt - integration)?");
+        System.out.println("a) Det sparar tid och pengar.");
+        System.out.println("b) Det möjliggör enkel återanvändning av lösningar.");
+        System.out.println("c) Det skapar individuella och svårt underhållna lösningar med dålig insyn i integrationen.");
+        System.out.print("Svar: ");
+        String answer162 = scanner.nextLine();
+        if (answer162.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Det skapar individuella och svårt underhållna lösningar med dålig insyn i integrationen'.");
+        }
+
+        // Fråga 163
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en fördel med integration med plattform (systemintegration)?");
+        System.out.println("a) Det skapar individuella och svårt underhållna lösningar.");
+        System.out.println("b) Det möjliggör återanvändning av lösningar och sparar tid och pengar.");
+        System.out.println("c) Det leder till en blackbox-upplevelse.");
+        System.out.print("Svar: ");
+        String answer163 = scanner.nextLine();
+        if (answer163.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Det möjliggör återanvändning av lösningar och sparar tid och pengar'.");
+        }
+
+        // Fråga 164
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig komponent i en integrationsplattform?");
+        System.out.println("a) Brevduvor");
+        System.out.println("b) Producers som hanterar inkommande data till plattformen.");
+        System.out.println("c) Enskilda telefoner");
+        System.out.print("Svar: ");
+        String answer164 = scanner.nextLine();
+        if (answer164.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Producers som hanterar inkommande data till plattformen'.");
+        }
+
+        // Fråga 165
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en iPaaS (Plattform som Service) inom integration?");
+        System.out.println("a) Att bygga fysiska plattformar i molnet.");
+        System.out.println("b) Att skapa integrationspunkter för samarbetspartners.");
+        System.out.println("c) Att erbjuda plattformar i molnet för enklare integrationer.");
+        System.out.print("Svar: ");
+        String answer165 = scanner.nextLine();
+        if (answer165.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att erbjuda plattformar i molnet för enklare integrationer'.");
+        }
+
+        // Fråga 166
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en viktig övervägning när du väljer ett iPaaS-system?");
+        System.out.println("a) Hur många timmar det har funnits på marknaden.");
+        System.out.println("b) Vilka system som kräver integration och hur de kommunicerar med varandra.");
+        System.out.println("c) Färgen på plattformens gränssnitt.");
+        System.out.print("Svar: ");
+        String answer166 = scanner.nextLine();
+        if (answer166.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Vilka system som kräver integration och hur de kommunicerar med varandra'.");
+        }
+
+        // Fråga 167
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en funktion som vanligtvis erbjuds av iPaaS-system för integration?");
+        System.out.println("a) Att skapa digitala konstverk.");
+        System.out.println("b) Data-transformation för att omvandla data mellan olika systems format.");
+        System.out.println("c) Att baka kakor.");
+        System.out.print("Svar: ");
+        String answer167 = scanner.nextLine();
+        if (answer167.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Data-transformation för att omvandla data mellan olika systems format'.");
+        }
+
+        // Fråga 168
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med informationsfilter inom en integrationsplattform?");
+        System.out.println("a) Att blockera all dataöverföring.");
+        System.out.println("b) Att välja vilken del av informationen från ett system som ska vidare till ett annat.");
+        System.out.println("c) Att skicka information till alla möjliga system samtidigt.");
+        System.out.print("Svar: ");
+        String answer168 = scanner.nextLine();
+        if (answer168.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att välja vilken del av informationen från ett system som ska vidare till ett annat'.");
+        }
+
+        // Fråga 155
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket är ett huvudsakligt användningsområde för API:er inom integrationsplattformar där de kopplar samman olika system och appar?");
+        System.out.println("a) Att skapa godis.");
+        System.out.println("b) Att möjliggöra kommunikation och datautbyte mellan system och appar.");
+        System.out.println("c) Att baka kakor.");
+        System.out.print("Svar: ");
+        String answer155 = scanner.nextLine();
+        if (answer155.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra kommunikation och datautbyte mellan system och appar'.");
+        }
+
+        // Fråga 156
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med API:er inom 'Applicationsintegration' inom integrationsplattformar?");
+        System.out.println("a) Att bygga rymdraketer.");
+        System.out.println("b) Att integrera externa applikationer och tjänster.");
+        System.out.println("c) Att odla grönsaker.");
+        System.out.print("Svar: ");
+        String answer156 = scanner.nextLine();
+        if (answer156.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att integrera externa applikationer och tjänster'.");
+        }
+
+        // Fråga 157
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad gör 'DataIntegration' med hjälp av API:er inom integrationsplattformar?");
+        System.out.println("a) DataIntegration skapar musikalbum.");
+        System.out.println("b) DataIntegration hämtar och delar data mellan olika system och databaser.");
+        System.out.println("c) DataIntegration bygger bilar.");
+        System.out.print("Svar: ");
+        String answer157 = scanner.nextLine();
+        if (answer157.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) DataIntegration hämtar och delar data mellan olika system och databaser'.");
+        }
+
+        // Fråga 158
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'PartnerIntegration' som använder API:er inom integrationsplattformar?");
+        System.out.println("a) Att skapa en bokklubb med vänner.");
+        System.out.println("b) Att skapa integrationspunkter för samarbetspartners och tredjepartsutvecklare.");
+        System.out.println("c) Att bygga trädhus.");
+        System.out.print("Svar: ");
+        String answer158 = scanner.nextLine();
+        if (answer158.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att skapa integrationspunkter för samarbetspartners och tredjepartsutvecklare'.");
+        }
+
+        // Fråga 159
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad möjliggör 'MobilIntegration' med hjälp av API:er inom integrationsplattformar?");
+        System.out.println("a) Att skicka röksignaler.");
+        System.out.println("b) Att tillåta kommunikation mellan mobilapplikationer och bakomliggande system.");
+        System.out.println("c) Att bygga pappersflygplan.");
+        System.out.print("Svar: ");
+        String answer159 = scanner.nextLine();
+        if (answer159.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att tillåta kommunikation mellan mobilapplikationer och bakomliggande system'.");
+        }
+
+        // Fråga 160
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'loT integration' som använder API:er inom integrationsplattformar?");
+        System.out.println("a) Att integrera recept för olika maträtter.");
+        System.out.println("b) Att integrera enheter och sensorer för att samla in och analysera data.");
+        System.out.println("c) Att integrera olika sportevenemang.");
+        System.out.print("Svar: ");
+        String answer160 = scanner.nextLine();
+        if (answer160.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att integrera enheter och sensorer för att samla in och analysera data'.");
+        }
+
+        // Fråga 161
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med 'eventbaserad integration' som använder API:er inom integrationsplattformar?");
+        System.out.println("a) Att planera båtutflykter.");
+        System.out.println("b) Att initiera integreringar och åtgärder mellan olika system vid specifika händelser.");
+        System.out.println("c) Att planera trädgårdsfester.");
+        System.out.print("Svar: ");
+        String answer161 = scanner.nextLine();
+        if (answer161.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att initiera integreringar och åtgärder mellan olika system vid specifika händelser'.");
+        }
+
+        // Fråga 147
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket syfte har 'Analys och rapportering' i ett iPaaS-system?");
+        System.out.println("a) Att bestämma företagets semesterplan.");
+        System.out.println("b) Att samla in och tolka data från olika system för att skapa användbar information.");
+        System.out.println("c) Att skapa musikspår.");
+        System.out.print("Svar: ");
+        String answer147 = scanner.nextLine();
+        if (answer147.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att samla in och tolka data från olika system för att skapa användbar information'.");
+        }
+
+        // Fråga 148
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med 'API' inom ett iPaaS-system?");
+        System.out.println("a) Att skapa en virtuell värld.");
+        System.out.println("b) Att erbjuda ett gemensamt gränssnitt för att koppla samman och möjliggöra kommunikation mellan olika system.");
+        System.out.println("c) Att baka tårtor.");
+        System.out.print("Svar: ");
+        String answer148 = scanner.nextLine();
+        if (answer148.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att erbjuda ett gemensamt gränssnitt för att koppla samman och möjliggöra kommunikation mellan olika system'.");
+        }
+
+        // Fråga 149
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad innebär 'Behörigheter' inom ett iPaaS-system?");
+        System.out.println("a) Att välja vilka som får tillgång till företagets fika.");
+        System.out.println("b) Att definiera och styra vilka användare som har rättigheter att utföra olika åtgärder i plattformen.");
+        System.out.println("c) Att arrangera spelkvällar.");
+        System.out.print("Svar: ");
+        String answer149 = scanner.nextLine();
+        if (answer149.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att definiera och styra vilka användare som har rättigheter att utföra olika åtgärder i plattformen'.");
+        }
+
+        // Fråga 150
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad möjliggör en 'Expanderbar plattform' inom ett iPaaS-system?");
+        System.out.println("a) Möjligheten att växa blommor.");
+        System.out.println("b) Förmågan att enkelt lägga till nya integrationer med flera system för framtida behov.");
+        System.out.println("c) Kapaciteten att planera framtida kontorslokaler.");
+        System.out.print("Svar: ");
+        String answer150 = scanner.nextLine();
+        if (answer150.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Förmågan att enkelt lägga till nya integrationer med flera system för framtida behov'.");
+        }
+
+        // Fråga 151
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Varför är 'Grafisk översikt över plattformen' en viktig funktion inom ett iPaaS-system?");
+        System.out.println("a) För att göra konstverk med datorgrafik.");
+        System.out.println("b) För att ge användarna en visuell representation av hur deras system är sammankopplade och fungerar.");
+        System.out.println("c) För att styra trafikljus.");
+        System.out.print("Svar: ");
+        String answer151 = scanner.nextLine();
+        if (answer151.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) För att ge användarna en visuell representation av hur deras system är sammankopplade och fungerar'.");
+        }
+
+        // Fråga 152
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad innebär 'Informationsfilter' inom ett iPaaS-system?");
+        System.out.println("a) Att rensa bort onödig information.");
+        System.out.println("b) Att välja vilken del av informationen från ett system som ska vidare till ett annat system.");
+        System.out.println("c) Att skapa ett filter för kaffe.");
+        System.out.print("Svar: ");
+        String answer152 = scanner.nextLine();
+        if (answer152.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att välja vilken del av informationen från ett system som ska vidare till ett annat system'.");
+        }
+
+        // Fråga 153
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'Kontinuerlig informationskontroll' inom ett iPaaS-system?");
+        System.out.println("a) Att övervaka vädret kontinuerligt.");
+        System.out.println("b) Att kontrollera och övervaka informationen som skickas mellan olika system för att minska fel.");
+        System.out.println("c) Att övervaka trafik i staden.");
+        System.out.print("Svar: ");
+        String answer153 = scanner.nextLine();
+        if (answer153.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att kontrollera och övervaka informationen som skickas mellan olika system för att minska fel'.");
+        }
+
+        // Fråga 154
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'Portal för utveckling' inom ett iPaaS-system?");
+        System.out.println("a) Att bygga portaler till fantasy-världar.");
+        System.out.println("b) Att erbjuda utvecklare tillgång till en plattform där tidigare förändringar dokumenteras och nyckelinformation delas.");
+        System.out.println("c) Att skapa en portal för telefonsamtal.");
+        System.out.print("Svar: ");
+        String answer154 = scanner.nextLine();
+        if (answer154.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att erbjuda utvecklare tillgång till en plattform där tidigare förändringar dokumenteras och nyckelinformation delas'.");
+        }
+
+
 // Fråga 131
         totalQuestions++;
         System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med ZooKeeper inom en Kafka-miljö?");
