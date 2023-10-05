@@ -915,6 +915,158 @@ public class IntegrationQuiz {
         } else {
             System.out.println("Fel svar. Rätt svar är 'b) Att göra komplexa och anpassade frågor för att hämta specifik data från en API'.");
         }
+
+        // Fråga 61
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en NoSQL-databas i mjukvaruutveckling?");
+        System.out.println("a) Att endast lagra numeriska data.");
+        System.out.println("b) Att lagra data som inte passar i en traditionell relationsdatabas och som kräver flexibel datamodellering.");
+        System.out.println("c) Att använda i stället för en webbläsare.");
+        System.out.print("Svar: ");
+        String answer61 = scanner.nextLine();
+        if (answer61.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att lagra data som inte passar i en traditionell relationsdatabas och som kräver flexibel datamodellering'.");
+        }
+
+// Fråga 62
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en ESB (Enterprise Service Bus) i systemintegration?");
+        System.out.println("a) Att skapa webb-API:er.");
+        System.out.println("b) Att övervaka användares internettrafik.");
+        System.out.println("c) Att hantera kommunikationen mellan olika system och tjänster.");
+        System.out.print("Svar: ");
+        String answer62 = scanner.nextLine();
+        if (answer62.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att hantera kommunikationen mellan olika system och tjänster'.");
+        }
+
+// Fråga 63
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Swagger-dokumentation i API-design?");
+        System.out.println("a) Att skapa interaktiva webbplatser.");
+        System.out.println("b) Att generera automatisk dokumentation för en API.");
+        System.out.println("c) Att kryptera användardata.");
+        System.out.print("Svar: ");
+        String answer63 = scanner.nextLine();
+        if (answer63.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att generera automatisk dokumentation för en API'.");
+        }
+
+// Fråga 64
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en DDoS (Distributed Denial of Service)-attack i cyberangrepp?");
+        System.out.println("a) Att kryptera data på en server.");
+        System.out.println("b) Att överbelasta en webbplats eller tjänst för att göra den otillgänglig för användare.");
+        System.out.println("c) Att stjäla användares lösenord.");
+        System.out.print("Svar: ");
+        String answer64 = scanner.nextLine();
+        if (answer64.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att överbelasta en webbplats eller tjänst för att göra den otillgänglig för användare'.");
+        }
+
+// Fråga 65
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CI/CD-pipeline (Continuous Integration/Continuous Deployment) i mjukvaruutveckling?");
+        System.out.println("a) Att generera slumpmässiga användarnamn.");
+        System.out.println("b) Att kontinuerligt integrera och testa kodändringar och sedan distribuera dem till produktion.");
+        System.out.println("c) Att skapa diagram och grafer.");
+        System.out.print("Svar: ");
+        String answer65 = scanner.nextLine();
+        if (answer65.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att kontinuerligt integrera och testa kodändringar och sedan distribuera dem till produktion'.");
+        }
+
+// Fråga 66
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en HMAC (Hash-based Message Authentication Code) i API-säkerhet?");
+        System.out.println("a) Att kryptera hela API-kommunikationen.");
+        System.out.println("b) Att autentisera och verifiera integriteten av meddelanden som skickas över en osäker kanal.");
+        System.out.println("c) Att blockera all nätverkstrafik.");
+        System.out.print("Svar: ");
+        String answer66 = scanner.nextLine();
+        if (answer66.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att autentisera och verifiera integriteten av meddelanden som skickas över en osäker kanal'.");
+        }
+
+// Fråga 67
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en SQL-TRIGGER i databashantering?");
+        System.out.println("a) Att spela upp ljudfiler.");
+        System.out.println("b) Att automatiskt utföra en uppgift eller åtgärd när vissa händelser inträffar i en databas.");
+        System.out.println("c) Att blockera användare från att komma åt en databas.");
+        System.out.print("Svar: ");
+        String answer67 = scanner.nextLine();
+        if (answer67.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att automatiskt utföra en uppgift eller åtgärd när vissa händelser inträffar i en databas'.");
+        }
+
+// Fråga 68
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en ARP (Address Resolution Protocol)-förfrågan i nätverkskommunikation?");
+        System.out.println("a) Att hämta webbsidor från internet.");
+        System.out.println("b) Att upptäcka en annan enhets MAC-adress baserat på dess IP-adress.");
+        System.out.println("c) Att skicka e-postmeddelanden.");
+        System.out.print("Svar: ");
+        String answer68 = scanner.nextLine();
+        if (answer68.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att upptäcka en annan enhets MAC-adress baserat på dess IP-adress'.");
+        }
+
+// Fråga 69
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en CMS (Content Management System)-plattform?");
+        System.out.println("a) Att skapa molnbaserade applikationer.");
+        System.out.println("b) Att hantera och publicera innehåll på webbplatser.");
+        System.out.println("c) Att generera lösenord.");
+        System.out.print("Svar: ");
+        String answer69 = scanner.nextLine();
+        if (answer69.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att hantera och publicera innehåll på webbplatser'.");
+        }
+
+// Fråga 70
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en Reverse Proxy-server i nätverksarkitektur?");
+        System.out.println("a) Att kryptera användarnas lösenord.");
+        System.out.println("b) Att blockera all inkommande trafik till en webbplats.");
+        System.out.println("c) Att agera som en mellanhand mellan användare och interna servrar för att förbättra prestanda och säkerhet.");
+        System.out.print("Svar: ");
+        String answer70 = scanner.nextLine();
+        if (answer70.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att agera som en mellanhand mellan användare och interna servrar för att förbättra prestanda och säkerhet'.");
+        }
+
+
         // Visa resultat
         System.out.println("\nDitt resultat: " + score + " av " + totalQuestions + " rätt.");
         scanner.close();
