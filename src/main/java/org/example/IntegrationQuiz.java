@@ -9,6 +9,176 @@ public class IntegrationQuiz {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
         int totalQuestions = 0;
+// Fråga 169
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med 'Controller-klasser' inom webutveckling?");
+        System.out.println("a) Att spela gitarr.");
+        System.out.println("b) Att hantera användarens inmatning och besluta hur applikationen ska svara på förfrågningar.");
+        System.out.println("c) Att lagra data i en databas.");
+        System.out.print("Svar: ");
+        String answer169 = scanner.nextLine();
+        if (answer169.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'b) Att hantera användarens inmatning och besluta hur applikationen ska svara på förfrågningar', men det beror på sammanhanget.");
+        }
+
+        // Fråga 170
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en 'Handler' inom webutveckling?");
+        System.out.println("a) En person som hanterar pappersdokument.");
+        System.out.println("b) En komponent som utför specifika åtgärder för att behandla en förfrågan eller händelse.");
+        System.out.println("c) En grafisk designer som skapar användargränssnitt.");
+        System.out.print("Svar: ");
+        String answer170 = scanner.nextLine();
+        if (answer170.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'a) En person som hanterar pappersdokument'.");
+        }
+
+        // Fråga 171
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilket påstående beskriver 'Controller-klasser' inom en MVC-arkitektur (Model-View-Controller)?");
+        System.out.println("a) Controller-klasser hanterar en applikations affärslogik och databasinteraktion.");
+        System.out.println("b) Controller-klasser är ansvariga för att visa data för användaren.");
+        System.out.println("c) Controller-klasser är en del av användargränssnittet och används för att skapa webbsidor.");
+        System.out.print("Svar: ");
+        String answer171 = scanner.nextLine();
+        if (answer171.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'c) Controller-klasser är en del av användargränssnittet och används för att skapa webbsidor', men det beror på sammanhanget.");
+        }
+
+        // Fråga 172
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en 'Handler' i samband med en webbapplikation?");
+        System.out.println("a) Att skapa en lista över användare och deras lösenord.");
+        System.out.println("b) Att ta emot förfrågningar från klienter och utföra åtgärder som svarar på dessa förfrågningar.");
+        System.out.println("c) Att formatera och layouta webbsidor.");
+        System.out.print("Svar: ");
+        String answer172 = scanner.nextLine();
+        if (answer172.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att ta emot förfrågningar från klienter och utföra åtgärder som svarar på dessa förfrågningar'.");
+        }
+
+        // Fråga 173
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en fördel med att använda 'Controller-klasser' och 'Handlers' i en webbapplikation?");
+        System.out.println("a) Det gör webbapplikationen långsammare och mindre skalbar.");
+        System.out.println("b) Det möjliggör en klar separation av affärslogik och användargränssnitt.");
+        System.out.println("c) Det ökar risken för fel och buggar i applikationen.");
+        System.out.print("Svar: ");
+        String answer173 = scanner.nextLine();
+        if (answer173.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'b) Det möjliggör en klar separation av affärslogik och användargränssnitt', men det beror på sammanhanget.");
+        }
+
+        // Fråga 174
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig användning av en 'Handler' inom webutveckling?");
+        System.out.println("a) Att skicka e-postmeddelanden.");
+        System.out.println("b) Att hantera HTTP-förfrågningar och svara med lämplig data eller åtgärder.");
+        System.out.println("c) Att skapa 3D-animerade filmer.");
+        System.out.print("Svar: ");
+        String answer174 = scanner.nextLine();
+        if (answer174.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'c) Att skapa 3D-animerade filmer', men det beror på sammanhanget.");
+        }
+
+        // Fråga 175
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad representerar en 'Entity' inom ramen för databasmodellering?");
+        System.out.println("a) En tabell i en databas.");
+        System.out.println("b) En uppsättning av funktioner som hanterar databasoperationer.");
+        System.out.println("c) En fysisk enhet som lagrar databasinformation.");
+        System.out.print("Svar: ");
+        String answer175 = scanner.nextLine();
+        if (answer175.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'a) En tabell i en databas', men det beror på sammanhanget.");
+        }
+
+        // Fråga 176
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med ett 'Repository' i en mjukvaruapplikation?");
+        System.out.println("a) Att lagra fysiska kopior av källkoden.");
+        System.out.println("b) Att erbjuda en abstraktionsnivå som underlättar åtkomst till data och databasoperationer.");
+        System.out.println("c) Att organisera användargränssnittet och layouten.");
+        System.out.print("Svar: ");
+        String answer176 = scanner.nextLine();
+        if (answer176.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'c) Att organisera användargränssnittet och layouten', men det beror på sammanhanget.");
+        }
+
+        // Fråga 177
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en potentiell fördel med att använda 'Entity' i samband med databasmodellering?");
+        System.out.println("a) Det ökar komplexiteten hos databasen.");
+        System.out.println("b) Det möjliggör representation av data i form av objekt, vilket kan förenkla utvecklingen.");
+        System.out.println("c) Det minskar antalet tabeller i databasen.");
+        System.out.print("Svar: ");
+        String answer177 = scanner.nextLine();
+        if (answer177.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'b) Det möjliggör representation av data i form av objekt, vilket kan förenkla utvecklingen', men det beror på sammanhanget.");
+        }
+
+        // Fråga 178
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en typisk funktion hos ett 'Repository' i en mjukvaruapplikation?");
+        System.out.println("a) Att rendera grafik och hantera användarens muspekare.");
+        System.out.println("b) Att erbjuda metoder för att utföra CRUD-operationer (Create, Read, Update, Delete) på databasen.");
+        System.out.println("c) Att spela ljudfiler och video.");
+        System.out.print("Svar: ");
+        String answer178 = scanner.nextLine();
+        if (answer178.equalsIgnoreCase("a")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'a) Att rendera grafik och hantera användarens muspekare', men det beror på sammanhanget.");
+        }
+
+        // Fråga 179
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilken av följande påståenden beskriver bäst vad en 'Entity' är inom databasmodellering?");
+        System.out.println("a) En extern enhet som används för att lagra backupdata.");
+        System.out.println("b) En logisk representation av en datatabell med attribut och relationer.");
+        System.out.println("c) En separat enhet som är ansvarig för att hantera nätverkstrafik.");
+        System.out.print("Svar: ");
+        String answer179 = scanner.nextLine();
+        if (answer179.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar kan vara 'b) En logisk representation av en datatabell med attribut och relationer', men det beror på sammanhanget.");
+        }
+
+        // Visa resultat
+        System.out.println("\nResultat:");
+        System.out.println("Antal rätt: " + score + " av " + totalQuestions);
+        scanner.close();
+
 
         // Fråga 162
         totalQuestions++;
