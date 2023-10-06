@@ -9,7 +9,7 @@ public class IntegrationQuiz {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
         int totalQuestions = 0;
-// Fråga 169
+        // Fråga 169
         totalQuestions++;
         System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med 'Controller-klasser' inom webutveckling?");
         System.out.println("a) Att spela gitarr.");
@@ -32,11 +32,11 @@ public class IntegrationQuiz {
         System.out.println("c) En grafisk designer som skapar användargränssnitt.");
         System.out.print("Svar: ");
         String answer170 = scanner.nextLine();
-        if (answer170.equalsIgnoreCase("a")) {
+        if (answer170.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar är 'a) En person som hanterar pappersdokument'.");
+            System.out.println("Fel svar. Rätt svar är 'b) En komponent som utför specifika åtgärder för att behandla en förfrågan eller händelse'.");
         }
 
         // Fråga 171
@@ -47,11 +47,11 @@ public class IntegrationQuiz {
         System.out.println("c) Controller-klasser är en del av användargränssnittet och används för att skapa webbsidor.");
         System.out.print("Svar: ");
         String answer171 = scanner.nextLine();
-        if (answer171.equalsIgnoreCase("c")) {
+        if (answer171.equalsIgnoreCase("a")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar kan vara 'c) Controller-klasser är en del av användargränssnittet och används för att skapa webbsidor', men det beror på sammanhanget.");
+            System.out.println("Fel svar. Rätt svar kan vara 'a) Controller-klasser hanterar en applikations affärslogik och databasinteraktion', men det beror på sammanhanget.");
         }
 
         // Fråga 172
@@ -92,14 +92,13 @@ public class IntegrationQuiz {
         System.out.println("c) Att skapa 3D-animerade filmer.");
         System.out.print("Svar: ");
         String answer174 = scanner.nextLine();
-        if (answer174.equalsIgnoreCase("c")) {
+        if (answer174.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar kan vara 'c) Att skapa 3D-animerade filmer', men det beror på sammanhanget.");
+            System.out.println("Fel svar. Rätt svar är 'b) Att hantera HTTP-förfrågningar och svara med lämplig data eller åtgärder'.");
         }
-
-        // Fråga 175
+// Fråga 175
         totalQuestions++;
         System.out.println("\nFråga " + totalQuestions + ": Vad representerar en 'Entity' inom ramen för databasmodellering?");
         System.out.println("a) En tabell i en databas.");
@@ -122,11 +121,11 @@ public class IntegrationQuiz {
         System.out.println("c) Att organisera användargränssnittet och layouten.");
         System.out.print("Svar: ");
         String answer176 = scanner.nextLine();
-        if (answer176.equalsIgnoreCase("c")) {
+        if (answer176.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar kan vara 'c) Att organisera användargränssnittet och layouten', men det beror på sammanhanget.");
+            System.out.println("Fel svar. Rätt svar kan vara 'b) Att erbjuda en abstraktionsnivå som underlättar åtkomst till data och databasoperationer', men det beror på sammanhanget.");
         }
 
         // Fråga 177
@@ -152,11 +151,11 @@ public class IntegrationQuiz {
         System.out.println("c) Att spela ljudfiler och video.");
         System.out.print("Svar: ");
         String answer178 = scanner.nextLine();
-        if (answer178.equalsIgnoreCase("a")) {
+        if (answer178.equalsIgnoreCase("b")) {
             System.out.println("Rätt svar!");
             score++;
         } else {
-            System.out.println("Fel svar. Rätt svar kan vara 'a) Att rendera grafik och hantera användarens muspekare', men det beror på sammanhanget.");
+            System.out.println("Fel svar. Rätt svar kan vara 'b) Att erbjuda metoder för att utföra CRUD-operationer (Create, Read, Update, Delete) på databasen', men det beror på sammanhanget.");
         }
 
         // Fråga 179
@@ -179,216 +178,6 @@ public class IntegrationQuiz {
         System.out.println("Antal rätt: " + score + " av " + totalQuestions);
         scanner.close();
 
-
-        // Fråga 162
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en av nackdelarna med integration utan plattform (punkt till punkt - integration)?");
-        System.out.println("a) Det sparar tid och pengar.");
-        System.out.println("b) Det möjliggör enkel återanvändning av lösningar.");
-        System.out.println("c) Det skapar individuella och svårt underhållna lösningar med dålig insyn i integrationen.");
-        System.out.print("Svar: ");
-        String answer162 = scanner.nextLine();
-        if (answer162.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Det skapar individuella och svårt underhållna lösningar med dålig insyn i integrationen'.");
-        }
-
-        // Fråga 163
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en fördel med integration med plattform (systemintegration)?");
-        System.out.println("a) Det skapar individuella och svårt underhållna lösningar.");
-        System.out.println("b) Det möjliggör återanvändning av lösningar och sparar tid och pengar.");
-        System.out.println("c) Det leder till en blackbox-upplevelse.");
-        System.out.print("Svar: ");
-        String answer163 = scanner.nextLine();
-        if (answer163.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Det möjliggör återanvändning av lösningar och sparar tid och pengar'.");
-        }
-
-        // Fråga 164
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en vanlig komponent i en integrationsplattform?");
-        System.out.println("a) Brevduvor");
-        System.out.println("b) Producers som hanterar inkommande data till plattformen.");
-        System.out.println("c) Enskilda telefoner");
-        System.out.print("Svar: ");
-        String answer164 = scanner.nextLine();
-        if (answer164.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Producers som hanterar inkommande data till plattformen'.");
-        }
-
-        // Fråga 165
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en iPaaS (Plattform som Service) inom integration?");
-        System.out.println("a) Att bygga fysiska plattformar i molnet.");
-        System.out.println("b) Att skapa integrationspunkter för samarbetspartners.");
-        System.out.println("c) Att erbjuda plattformar i molnet för enklare integrationer.");
-        System.out.print("Svar: ");
-        String answer165 = scanner.nextLine();
-        if (answer165.equalsIgnoreCase("c")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'c) Att erbjuda plattformar i molnet för enklare integrationer'.");
-        }
-
-        // Fråga 166
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en viktig övervägning när du väljer ett iPaaS-system?");
-        System.out.println("a) Hur många timmar det har funnits på marknaden.");
-        System.out.println("b) Vilka system som kräver integration och hur de kommunicerar med varandra.");
-        System.out.println("c) Färgen på plattformens gränssnitt.");
-        System.out.print("Svar: ");
-        String answer166 = scanner.nextLine();
-        if (answer166.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Vilka system som kräver integration och hur de kommunicerar med varandra'.");
-        }
-
-        // Fråga 167
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är en funktion som vanligtvis erbjuds av iPaaS-system för integration?");
-        System.out.println("a) Att skapa digitala konstverk.");
-        System.out.println("b) Data-transformation för att omvandla data mellan olika systems format.");
-        System.out.println("c) Att baka kakor.");
-        System.out.print("Svar: ");
-        String answer167 = scanner.nextLine();
-        if (answer167.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Data-transformation för att omvandla data mellan olika systems format'.");
-        }
-
-        // Fråga 168
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med informationsfilter inom en integrationsplattform?");
-        System.out.println("a) Att blockera all dataöverföring.");
-        System.out.println("b) Att välja vilken del av informationen från ett system som ska vidare till ett annat.");
-        System.out.println("c) Att skicka information till alla möjliga system samtidigt.");
-        System.out.print("Svar: ");
-        String answer168 = scanner.nextLine();
-        if (answer168.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att välja vilken del av informationen från ett system som ska vidare till ett annat'.");
-        }
-
-        // Fråga 155
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vilket är ett huvudsakligt användningsområde för API:er inom integrationsplattformar där de kopplar samman olika system och appar?");
-        System.out.println("a) Att skapa godis.");
-        System.out.println("b) Att möjliggöra kommunikation och datautbyte mellan system och appar.");
-        System.out.println("c) Att baka kakor.");
-        System.out.print("Svar: ");
-        String answer155 = scanner.nextLine();
-        if (answer155.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra kommunikation och datautbyte mellan system och appar'.");
-        }
-
-        // Fråga 156
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med API:er inom 'Applicationsintegration' inom integrationsplattformar?");
-        System.out.println("a) Att bygga rymdraketer.");
-        System.out.println("b) Att integrera externa applikationer och tjänster.");
-        System.out.println("c) Att odla grönsaker.");
-        System.out.print("Svar: ");
-        String answer156 = scanner.nextLine();
-        if (answer156.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att integrera externa applikationer och tjänster'.");
-        }
-
-        // Fråga 157
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad gör 'DataIntegration' med hjälp av API:er inom integrationsplattformar?");
-        System.out.println("a) DataIntegration skapar musikalbum.");
-        System.out.println("b) DataIntegration hämtar och delar data mellan olika system och databaser.");
-        System.out.println("c) DataIntegration bygger bilar.");
-        System.out.print("Svar: ");
-        String answer157 = scanner.nextLine();
-        if (answer157.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) DataIntegration hämtar och delar data mellan olika system och databaser'.");
-        }
-
-        // Fråga 158
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'PartnerIntegration' som använder API:er inom integrationsplattformar?");
-        System.out.println("a) Att skapa en bokklubb med vänner.");
-        System.out.println("b) Att skapa integrationspunkter för samarbetspartners och tredjepartsutvecklare.");
-        System.out.println("c) Att bygga trädhus.");
-        System.out.print("Svar: ");
-        String answer158 = scanner.nextLine();
-        if (answer158.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att skapa integrationspunkter för samarbetspartners och tredjepartsutvecklare'.");
-        }
-
-        // Fråga 159
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad möjliggör 'MobilIntegration' med hjälp av API:er inom integrationsplattformar?");
-        System.out.println("a) Att skicka röksignaler.");
-        System.out.println("b) Att tillåta kommunikation mellan mobilapplikationer och bakomliggande system.");
-        System.out.println("c) Att bygga pappersflygplan.");
-        System.out.print("Svar: ");
-        String answer159 = scanner.nextLine();
-        if (answer159.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att tillåta kommunikation mellan mobilapplikationer och bakomliggande system'.");
-        }
-
-        // Fråga 160
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med 'loT integration' som använder API:er inom integrationsplattformar?");
-        System.out.println("a) Att integrera recept för olika maträtter.");
-        System.out.println("b) Att integrera enheter och sensorer för att samla in och analysera data.");
-        System.out.println("c) Att integrera olika sportevenemang.");
-        System.out.print("Svar: ");
-        String answer160 = scanner.nextLine();
-        if (answer160.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att integrera enheter och sensorer för att samla in och analysera data'.");
-        }
-
-        // Fråga 161
-        totalQuestions++;
-        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med 'eventbaserad integration' som använder API:er inom integrationsplattformar?");
-        System.out.println("a) Att planera båtutflykter.");
-        System.out.println("b) Att initiera integreringar och åtgärder mellan olika system vid specifika händelser.");
-        System.out.println("c) Att planera trädgårdsfester.");
-        System.out.print("Svar: ");
-        String answer161 = scanner.nextLine();
-        if (answer161.equalsIgnoreCase("b")) {
-            System.out.println("Rätt svar!");
-            score++;
-        } else {
-            System.out.println("Fel svar. Rätt svar är 'b) Att initiera integreringar och åtgärder mellan olika system vid specifika händelser'.");
-        }
 
         // Fråga 147
         totalQuestions++;
@@ -1463,7 +1252,140 @@ public class IntegrationQuiz {
             System.out.println("Fel svar. Rätt svar är 'b) Att automatisera processen att flytta eller hantera filer mellan olika platser'.");
         }
 
+        // Fråga 122
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är huvudsyftet med SFTP (Secure File Transfer Protocol) inom integrationsplattformar?");
+        System.out.println("a) Att göra filöverföringar med hög hastighet.");
+        System.out.println("b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation.");
+        System.out.println("c) Att övervaka nätverkstrafik.");
+        System.out.print("Svar: ");
+        String answer122 = scanner.nextLine();
+        if (answer122.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att möjliggöra överföring av filer på ett säkert sätt via krypterad kommunikation'.");
+        }
 
+        // Fråga 123
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vilken typ av datautbyte används EDIFACT för inom företag och organisationer?");
+        System.out.println("a) Streaming av videofiler.");
+        System.out.println("b) Beställningar, fakturor, leveranser och handelsrelaterade ärenden.");
+        System.out.println("c) Sociala medier inlägg.");
+        System.out.print("Svar: ");
+        String answer123 = scanner.nextLine();
+        if (answer123.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Beställningar, fakturor, leveranser och handelsrelaterade ärenden'.");
+        }
+
+        // Fråga 124
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är JSON (JavaScript Object Notation)?");
+        System.out.println("a) En avancerad programmeringsspråk.");
+        System.out.println("b) Ett självbeskrivande format som används för datautbyte.");
+        System.out.println("c) En webbläsare.");
+        System.out.print("Svar: ");
+        String answer124 = scanner.nextLine();
+        if (answer124.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Ett självbeskrivande format som används för datautbyte'.");
+        }
+
+        // Fråga 125
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är Kafka?");
+        System.out.println("a) En typ av kaffe.");
+        System.out.println("b) Ett webbhotellföretag.");
+        System.out.println("c) Ett distributionsverktyg med ett kluster av minst 3 mäklare.");
+        System.out.print("Svar: ");
+        String answer125 = scanner.nextLine();
+        if (answer125.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Ett distributionsverktyg med ett kluster av minst 3 mäklare'.");
+        }
+
+        // Fråga 126
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad används Topics till inom Kafka?");
+        System.out.println("a) Att organisera kategorier av användare på en webbplats.");
+        System.out.println("b) Att organisera Kafka-mäklare i klustret.");
+        System.out.println("c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas.");
+        System.out.print("Svar: ");
+        String answer126 = scanner.nextLine();
+        if (answer126.equalsIgnoreCase("c")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'c) Att låta Kafka-servern veta vilken data som kommer från vilken källa och vart den ska skickas'.");
+        }
+
+        // Fråga 127
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är en Offset inom Kafka?");
+        System.out.println("a) En kaka med choklad.");
+        System.out.println("b) En läsposition som används för att hålla reda på det senaste lästa meddelandet i varje partition.");
+        System.out.println("c) En kopia av datan.");
+        System.out.print("Svar: ");
+        String answer127 = scanner.nextLine();
+        if (answer127.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) En läsposition som används för att hålla reda på det senaste lästa meddelandet i varje partition'.");
+        }
+
+        // Fråga 128
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med replikor inom Kafka?");
+        System.out.println("a) Att skapa backupkopior av användardata.");
+        System.out.println("b) Att garantera hög tillförlitlighet och felsäkerhet.");
+        System.out.println("c) Att distribuera datan till flera consumers.");
+        System.out.print("Svar: ");
+        String answer128 = scanner.nextLine();
+        if (answer128.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att garantera hög tillförlitlighet och felsäkerhet'.");
+        }
+
+        // Fråga 129
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med en Consumergroup inom Kafka?");
+        System.out.println("a) Att fördela reklam till olika målgrupper.");
+        System.out.println("b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång.");
+        System.out.println("c) Att analysera användarbeteenden på webbplatser.");
+        System.out.print("Svar: ");
+        String answer129 = scanner.nextLine();
+        if (answer129.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att fördela dataflödet mellan consumers och säkerställa att data endast behandlas en gång'.");
+        }
+
+        // Fråga 130
+        totalQuestions++;
+        System.out.println("\nFråga " + totalQuestions + ": Vad är syftet med Zookeeper inom Kafka?");
+        System.out.println("a) Att underhålla en djurpark.");
+        System.out.println("b) Att organisera och identifiera mäklarna i Kafka-klustret.");
+        System.out.println("c) Att övervaka trafikljus.");
+        System.out.print("Svar: ");
+        String answer130 = scanner.nextLine();
+        if (answer130.equalsIgnoreCase("b")) {
+            System.out.println("Rätt svar!");
+            score++;
+        } else {
+            System.out.println("Fel svar. Rätt svar är 'b) Att organisera och identifiera mäklarna i Kafka-klustret'.");
+        }
 
         // Visa resultat
         System.out.println("\nDitt resultat: " + score + " av " + totalQuestions + " rätt.");
