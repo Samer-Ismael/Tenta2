@@ -114,6 +114,7 @@ public class IntegrationQuizApp {
                         "c) When network quality is unpredictable.",
                         "d) When dealing with small files.",
                         "b"},
+
                 {"What is the primary role of Apache Kafka in integration?",
                         "a) To process data within a single system",
                         "b) To facilitate communication between applications",
@@ -429,7 +430,7 @@ public class IntegrationQuizApp {
             for (int i = 0; i < 4; i++) {
                 choices[i] = questionAndChoices[i + 1];
             }
-            String correctAnswer = questionAndChoices[6];
+            String correctAnswer = questionAndChoices[5];
 
             System.out.println("\nQuestion: " + question);
             for (int i = 0; i < 4; i++) {
