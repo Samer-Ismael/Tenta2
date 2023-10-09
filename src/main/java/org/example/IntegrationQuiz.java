@@ -173,12 +173,6 @@ public class IntegrationQuiz {
             System.out.println("Fel svar. Rätt svar kan vara 'b) En logisk representation av en datatabell med attribut och relationer', men det beror på sammanhanget.");
         }
 
-        // Visa resultat
-        System.out.println("\nResultat:");
-        System.out.println("Antal rätt: " + score + " av " + totalQuestions);
-        scanner.close();
-
-
         // Fråga 147
         totalQuestions++;
         System.out.println("\nFråga " + totalQuestions + ": Vilket syfte har 'Analys och rapportering' i ett iPaaS-system?");
