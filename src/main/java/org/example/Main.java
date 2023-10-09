@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        new IntegrationQuiz();
+        //new IntegrationQuiz();
 
-
+        new IntegrationQuizApp();
 
         /*
         Detta är en ny idea som är fortfarande under test :)
@@ -19,6 +19,9 @@ public class Main {
 
 
          */
+
+
+
 
     }
 
