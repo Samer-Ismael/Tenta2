@@ -53,6 +53,8 @@ public class Main {
 
     Controller: där ligger alla våra handlers och själva web API:et
 
+    Handler är själva adressen vi kontaktar API:et med.
+
     Unit tester, vad de är, hur de funkar. Skriva en statement som assert.equals
 
     Svarskod på http request. 200 = success
