@@ -46,6 +46,11 @@ public class Main {
 
     JPA ramverket. Skillnad mellan Entity class, repository och en service.
 
+    Entity klass för att bygga upp database table, och vara en behållare till data som skickas till och ifrån databasen
+
+    Repository klass den importerar in JPA repo paket (som är en interface) som innehåller grundläggande funktionalitet till databasen.
+    JPA interface måste bli ärved av en klass för att ska kunna bli kopplad till en Entity klass.
+
     Unit tester, vad de är, hur de funkar. Skriva en statement som assert.equals
 
     Svarskod på http request. 200 = success
